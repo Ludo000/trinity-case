@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="17" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="8" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-20-4 comment="false" id="1" x="0" y="0"/>
+                </setanim>
+                <set-val-20-5 comment="false" x="26" y="74">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-20-5>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="17" id="-1"/>
+    <group eventID="16" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <anchor-screen comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </anchor-screen>
+            </group>
+        </init>
+    </group>
+    <group eventID="16" id="-1"/>
+    <group eventID="19" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="14" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-20-6 comment="false" id="1" x="0" y="0"/>
+                </setanim>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="19" id="-1"/>
+    <group eventID="18" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="9" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="20" id="-1">
+                        <say-this comment="false" x="37" y="67">
+                            <int id="0" val="Action"/>
+                        </say-this>
+                    </group>
+                    <get-val-20-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="26" y="99">
+                    <group eventID="15" id="-1">
+                        <setanim comment="false" x="37" y="132">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-20-1 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <is-platform comment="false" id="0" x="0" y="0">
+                        <int id="0" val="6"/>
+                    </is-platform>
+                </if>
+                <else comment="false" x="26" y="176">
+                    <group eventID="15" id="-1">
+                        <setanim comment="false" x="37" y="196">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-20-6 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                </else>
+                <set-val-20-5 comment="false" x="26" y="240">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-20-5>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="18" id="-1"/>
+    <group eventID="21" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="21" id="-1">
+                <shout comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-20-7 comment="false" id="1" x="0" y="0"/>
+                </shout>
+            </group>
+            <int id="0" val="Action"/>
+        </event-custom>
+    </group>
+    <group eventID="21" id="-1"/>
+    <group eventID="20" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="14" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-20-1 comment="false" id="1" x="0" y="0"/>
+                </setanim>
+                <set-val-20-5 comment="false" x="26" y="74">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-20-5>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="20" id="-1"/>
+</groups>

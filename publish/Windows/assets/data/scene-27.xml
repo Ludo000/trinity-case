@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="91" extheight="1152" extwidth="1984" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1088" id="27" name="menu" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1920">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="fond_menu" opacity="100" order="1" rid="209" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="207" name="bouton_menu START 1" sx="1.0" sy="1.0" x="660" y="460" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="203" name="son_moins 2" sx="1.0" sy="1.0" x="1305" y="56" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="205" name="son_plus 3" sx="1.0" sy="1.0" x="1680" y="40" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="201" name="barre_son 4" sx="1.0" sy="1.0" x="1267" y="22" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="196" name="bouton_menuquit 5" sx="1.0" sy="1.0" x="660" y="620" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="221" name="bouton_menu credit 6" sx="1.0" sy="1.0" x="660" y="780" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="63">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="210"/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

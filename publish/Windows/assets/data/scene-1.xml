@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="9" desc="" eventsnippetid="8" extheight="1152" extwidth="1984" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1088" id="1" name="05 act1 scene01 interro" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1920">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <background blendMode="normal" customScrollFactor="false" id="8" locked="true" name="back1" opacity="100" order="9" rid="63" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="table" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="dialogue" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="2" locked="false" name="bouton choix" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="0,255,0" id="9" locked="false" name="karma" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,175,175" id="10" locked="false" name="fleche" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,200,0" id="4" locked="false" name="carnet" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,0,255" id="7" locked="false" name="bouton carnet" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,0,0" id="11" locked="false" name="QCM" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="120" id="0" name="Region 0" pts="4,-26.0,60.0,26.0,60.0,26.0,-60.0,-26.0,-60.0" r="64" type="box" w="52" x="1575" y="132"/>
+        <region b="64" g="64" h="120" id="1" name="Region 1" pts="4,-21.0,60.0,21.0,60.0,21.0,-60.0,-21.0,-60.0" r="64" type="box" w="42" x="1587" y="290"/>
+        <region b="64" g="64" h="120" id="2" name="Region 2" pts="4,-19.0,60.0,19.0,60.0,19.0,-60.0,-19.0,-60.0" r="64" type="box" w="38" x="1587" y="454"/>
+        <region b="64" g="64" h="134" id="3" name="Region 3" pts="4,76.0,0.0,76.0,134.0,0.0,134.0,0.0,0.0" r="64" type="box" w="76" x="1567" y="652"/>
+        <region b="64" g="64" h="164" id="4" name="Region 4" pts="4,517.0,0.0,517.0,164.0,0.0,164.0,0.0,0.0" r="64" type="box" w="517" x="439" y="205"/>
+        <region b="64" g="64" h="138" id="5" name="Region 5" pts="4,508.0,0.0,508.0,138.0,0.0,138.0,0.0,0.0" r="64" type="box" w="508" x="443" y="380"/>
+        <region b="64" g="64" h="125" id="6" name="Region 6" pts="4,514.0,0.0,514.0,125.0,0.0,125.0,0.0,0.0" r="64" type="box" w="514" x="438" y="524"/>
+        <region b="64" g="64" h="47" id="7" name="Region 7" pts="4,624.0,0.0,624.0,47.0,0.0,47.0,0.0,0.0" r="64" type="box" w="624" x="652" y="629"/>
+        <region b="64" g="64" h="43" id="8" name="Region 8" pts="4,621.0,0.0,621.0,43.0,0.0,43.0,0.0,0.0" r="64" type="box" w="621" x="653" y="681"/>
+        <region b="64" g="64" h="49" id="9" name="Region 9" pts="4,617.0,0.0,617.0,49.0,0.0,49.0,0.0,0.0" r="64" type="box" w="617" x="653" y="730"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="3" id="4" name="fond_dialog 2" sx="1.0" sy="1.0" x="42" y="802" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="0" name="actor1 3" sx="1.0" sy="1.0" x="1757" y="950" z="2"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="6" name="fleche 4" sx="1.0" sy="1.0" x="1680" y="816" z="2"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="8" name="carnet 5" sx="1.0" sy="1.0" x="1734" y="26" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="10" name="button1 6" sx="1.0" sy="1.0" x="1400" y="350" z="2"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="12" name="button2 7" sx="1.0" sy="1.0" x="1700" y="350" z="2"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="14" name="contradiction 8" sx="1.0" sy="1.0" x="450" y="210" z="7"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="20" name="rond 10" sx="1.0" sy="1.0" x="1607" y="415" z="2"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="22" name="johnson 11" sx="1.0" sy="1.0" x="464" y="197" z="5"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="17" name="fond_carnet 12" sx="1.0" sy="1.0" x="73" y="-7" z="4"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="27" name="preuve 2 13" sx="1.0" sy="1.0" x="450" y="390" z="7"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="29" name="preuve 3 14" sx="1.0" sy="1.0" x="450" y="526" z="7"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="32" name="table 15" sx="1.0" sy="1.0" x="245" y="928" z="6"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="32" name="table 16" sx="1.0" sy="1.0" x="-13" y="8" z="6"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="42" name="wait_proof 17" sx="1.0" sy="1.0" x="1749" y="680" z="2"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="83" name="karma_bar 18" sx="1.0" sy="1.0" x="460" y="1" z="9"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="85" name="karma_fleche 19" sx="1.0" sy="1.0" x="460" y="1" z="10"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="87" name="vie 20" sx="1.0" sy="1.0" x="0" y="0" z="9"/>
+        <actor a="0.0" aid="21" c="false" group="3" id="79" name="fond_QCM 21" sx="1.0" sy="1.0" x="641" y="602" z="11"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="19">
+            <prop id="2" list="0" val="No Control"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val="-1"/>
+            <prop id="12" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="86">
+            <prop id="1" list="1" val=""/>
+            <prop id="2" list="1" val="">
+                <text order="0" value="Theodore:Mr Jonhson I guess?"/>
+                <text order="1" value="Jonhson: Yeah it's me! And I want you to know that .. :colere"/>
+                <text order="2" value="Theodore:Wow calm down."/>
+                <text order="3" value="Jonhson:..."/>
+                <text order="4" value="Theodore:I may be wrong but I think you're not on the right side of the table."/>
+                <text order="5" value="Theodore:So I'm the one who asks questions here."/>
+                <text order="6" value="Jonhson:ugh.."/>
+                <text order="7" value="Theodore:Good,so monday ,where were you ?"/>
+                <text order="8" value="Jonhson:Hum nowehere in particuliar.:normal"/>
+                <text order="9" value="Theodore:..."/>
+                <text order="10" value="himself:He doesn't want to answer,I can try to be nice to him or not , but this will have consequences. : : Q1"/>
+                <text order="11" value="xxx"/>
+                <text order="12" value="xxx"/>
+                <text order="13" value="xxx"/>
+                <text order="14" value="Jonhson :Ok, ok fine."/>
+                <text order="15" value="Jonhson:Well... Monday..."/>
+                <text order="16" value="Jonhson:I was home all day. : : C1"/>
+                <text order="17" value="Theodore:No you weren't, your prints were on this camera."/>
+                <text order="18" value="Jonhson:What no!I...:surpris"/>
+                <text order="19" value="Jonhson:I'm not...I didn't... : : Q2"/>
+                <text order="20" value="xxx"/>
+                <text order="21" value="xxx"/>
+                <text order="22" value="Jonhson:Well listen..."/>
+                <text order="23" value="Jonhson:I didn't kill anyone !"/>
+                <text order="24" value="Jonhson:A guy paid me to set the camera in the room !"/>
+                <text order="25" value="Theodore:A guy you said."/>
+                <text order="26" value="Jonhson:Yeah ! I only spoke to him once on the phone, he is really strange, his voice... I don't know how to describe it."/>
+                <text order="27" value="Theodore:Well that's not much information ... : : QCM_1"/>
+                <text order="28" value="xxx"/>
+                <text order="29" value="Theodore:Very well Mr Jonhson you're free to go."/>
+                <text order="30" value="Theodore:But don't leave the town."/>
+            </prop>
+            <prop id="3" list="1" val=""/>
+            <prop id="4" list="0" val=""/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val="0.0"/>
+            <prop id="8" list="0" val="0.0"/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="0.0"/>
+            <prop id="11" list="0" val="0.0"/>
+            <prop id="12" list="0" val="2"/>
+        </s>
+        <s enabled="true" id="63">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="225"/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

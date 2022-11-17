@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenes>
+    <scene desc="" id="1" name="05 act1 scene01 interro"/>
+    <scene desc="" id="2" name="death"/>
+    <scene desc="" id="3" name="01 tuto"/>
+    <scene desc="" id="4" name="02 act01 scene01 intro"/>
+    <scene desc="" id="5" name="03 act01 scene01 Breiffing"/>
+    <scene desc="" id="6" name="04 act01 scene01 Breiffing 2"/>
+    <scene desc="" id="8" name="07 act01 scene02 Breiffing"/>
+    <scene desc="" id="9" name="08 act1 scene02 interro"/>
+    <scene desc="" id="10" name="09 act01 scene02 post"/>
+    <scene desc="" id="11" name="10 act01 scene03 post"/>
+    <scene desc="" id="12" name="11 act1 scene03 interro"/>
+    <scene desc="" id="13" name="12 act02 scene01 pre"/>
+    <scene desc="" id="14" name="13 act2 scene01 interro"/>
+    <scene desc="" id="15" name="12_2 act02 scene01 pre 2"/>
+    <scene desc="" id="17" name="15 act2 scene02 interro"/>
+    <scene desc="" id="18" name="16 act02 scene02 post"/>
+    <scene desc="" id="19" name="18 act03 scene01 pre"/>
+    <scene desc="" id="20" name="17 act02 scene03"/>
+    <scene desc="" id="21" name="19 act03 scene01 pre 2"/>
+    <scene desc="" id="22" name="20 act03 scene01 pre 3"/>
+    <scene desc="" id="23" name="21 act03 scene02"/>
+    <scene desc="" id="25" name="22 act3 scene02 2"/>
+    <scene desc="" id="26" name="23 FINAL"/>
+    <scene desc="" id="27" name="menu"/>
+    <scene desc="" id="28" name="00 intro"/>
+    <scene desc="" id="30" name="06 act01 scene01 post"/>
+    <scene desc="" id="31" name="06_2 act01 scene02 pre"/>
+    <scene desc="" id="32" name="09_2 act01 scene03 pre"/>
+    <scene desc="" id="33" name="09_3 act01 scene03 pre"/>
+    <scene desc="" id="34" name="10_2 act01 scene 03"/>
+    <scene desc="" id="35" name="11_2 act01 scene 03"/>
+    <scene desc="" id="36" name="11_3  transition"/>
+    <scene desc="" id="37" name="11_4 devan com"/>
+    <scene desc="" id="38" name="13_2 devan com"/>
+    <scene desc="" id="39" name="13_3 devan com"/>
+    <scene desc="" id="40" name="17_2 devan com"/>
+    <scene desc="" id="41" name="17_3  transition"/>
+    <scene desc="" id="43" name="21_2 devan com"/>
+    <scene desc="" id="44" name="19_2 devan salle"/>
+    <scene desc="" id="45" name="20_2 black"/>
+    <scene desc="" id="46" name="24 end"/>
+    <scene desc="" id="47" name="credit"/>
+    <scene desc="" id="48" name="01_2 black"/>
+</scenes>

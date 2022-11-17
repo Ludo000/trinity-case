@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="11" desc="" eventsnippetid="59" extheight="1152" extwidth="1984" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="1088" id="12" name="11 act1 scene03 interro" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1920">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <background blendMode="normal" customScrollFactor="false" id="8" locked="true" name="back1" opacity="100" order="11" rid="63" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso" opacity="100" order="10" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="table" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="dialogue" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="2" locked="false" name="bouton choix" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="9" locked="false" name="karma" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,175,175" id="10" locked="false" name="fleche" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,0" id="11" locked="false" name="QCM" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,200,0" id="4" locked="false" name="carnet" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,0,255" id="7" locked="false" name="bouton carnet" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="100,168,234" id="12" locked="false" name="bouton fiche" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="0,0,255" id="13" locked="false" name="fiche" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="120" id="0" name="Region 0" pts="4,0.0,0.0,52.0,0.0,52.0,120.0,0.0,120.0" r="64" type="box" w="52" x="1575" y="132"/>
+        <region b="64" g="64" h="120" id="1" name="Region 1" pts="4,0.0,0.0,42.0,0.0,42.0,120.0,0.0,120.0" r="64" type="box" w="42" x="1587" y="290"/>
+        <region b="64" g="64" h="120" id="2" name="Region 2" pts="4,0.0,0.0,38.0,0.0,38.0,120.0,0.0,120.0" r="64" type="box" w="38" x="1587" y="454"/>
+        <region b="64" g="64" h="134" id="3" name="Region 3" pts="4,0.0,0.0,76.0,0.0,76.0,134.0,0.0,134.0" r="64" type="box" w="76" x="1567" y="652"/>
+        <region b="64" g="64" h="164" id="4" name="Region 4" pts="4,0.0,0.0,517.0,0.0,517.0,164.0,0.0,164.0" r="64" type="box" w="517" x="432" y="123"/>
+        <region b="64" g="64" h="200" id="5" name="Region 5" pts="4,0.0,0.0,508.0,0.0,508.0,200.0,0.0,200.0" r="64" type="box" w="508" x="432" y="291"/>
+        <region b="64" g="64" h="125" id="6" name="Region 6" pts="4,0.0,0.0,514.0,0.0,514.0,125.0,0.0,125.0" r="64" type="box" w="514" x="433" y="495"/>
+        <region b="64" g="64" h="30" id="7" name="Region 7" pts="4,0.0,0.0,624.0,0.0,624.0,30.0,0.0,30.0" r="64" type="box" w="624" x="654" y="633"/>
+        <region b="64" g="64" h="30" id="8" name="Region 8" pts="4,0.0,0.0,620.0,0.0,620.0,30.0,0.0,30.0" r="64" type="box" w="620" x="654" y="665"/>
+        <region b="64" g="64" h="30" id="9" name="Region 9" pts="4,0.0,0.0,616.0,0.0,616.0,30.0,0.0,30.0" r="64" type="box" w="616" x="656" y="700"/>
+        <region b="64" g="64" h="303" id="10" name="Region 10" pts="4,0.0,0.0,531.0,0.0,531.0,303.0,0.0,303.0" r="64" type="box" w="531" x="435" y="126"/>
+        <region b="64" g="64" h="800" id="11" name="fiche" pts="4,0.0,0.0,531.0,0.0,531.0,800.0,0.0,800.0" r="64" type="box" w="531" x="1005" y="100"/>
+        <region b="64" g="64" h="147" id="12" name="Region 12" pts="4,0.0,0.0,516.0,0.0,516.0,147.0,0.0,147.0" r="64" type="box" w="516" x="434" y="629"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="32" c="false" group="3" id="150" name="bouton_rapport20ans 32" order="0" sx="1.0" sy="1.0" x="457" y="656" z="4"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="4" name="fond_dialog 2" order="0" sx="1.0" sy="1.0" x="42" y="802" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="0" name="actor1 3" order="0" sx="1.0" sy="1.0" x="1757" y="950" z="2"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="6" name="fleche 4" order="1" sx="1.0" sy="1.0" x="1680" y="816" z="2"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="8" name="carnet 5" order="2" sx="1.0" sy="1.0" x="1734" y="26" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="10" name="button1 6" order="3" sx="1.0" sy="1.0" x="1400" y="350" z="2"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="12" name="button2 7" order="4" sx="1.0" sy="1.0" x="1700" y="350" z="2"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="20" name="rond 10" order="5" sx="1.0" sy="1.0" x="1607" y="415" z="2"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="17" name="fond_carnet 12" order="1" sx="1.0" sy="1.0" x="73" y="-7" z="4"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="32" name="table 15" order="0" sx="1.0" sy="1.0" x="245" y="928" z="6"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="32" name="table 16" order="1" sx="1.0" sy="1.0" x="-13" y="8" z="6"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="42" name="wait_proof 17" order="6" sx="1.0" sy="1.0" x="1749" y="680" z="2"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="83" name="karma_bar 18" order="0" sx="1.0" sy="1.0" x="460" y="1" z="9"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="85" name="karma_fleche 19" order="0" sx="1.0" sy="1.0" x="460" y="1" z="10"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="87" name="vie 20" order="1" sx="1.0" sy="1.0" x="0" y="0" z="9"/>
+        <actor a="0.0" aid="21" c="false" group="3" id="79" name="fond_QCM 21" order="0" sx="1.0" sy="1.0" x="641" y="602" z="11"/>
+        <actor a="0.0" aid="27" c="false" group="3" id="126" name="bouton_11vicitmes_mirroir 27" order="0" sx="1.0" sy="1.0" x="445" y="309" z="12"/>
+        <actor a="0.0" aid="28" c="false" group="3" id="128" name="bouton_johnson 28" order="1" sx="1.0" sy="1.0" x="449" y="147" z="12"/>
+        <actor a="0.0" aid="29" c="false" group="3" id="124" name="fiche_11victime_mirroir 29" order="0" sx="1.0" sy="1.0" x="1004" y="97" z="13"/>
+        <actor a="0.0" aid="30" c="false" group="3" id="146" name="tueur1 30" order="0" sx="1.0" sy="1.0" x="463" y="177" z="5"/>
+        <actor a="0.0" aid="31" c="false" group="3" id="148" name="bouton_collibris 31" order="2" sx="1.0" sy="1.0" x="451" y="502" z="12"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="19">
+            <prop id="2" list="0" val="echap"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val="-1"/>
+            <prop id="12" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="86">
+            <prop id="1" list="1" val=""/>
+            <prop id="2" list="1" val="">
+                <text order="0" value="Dubeaufeu:You !:colere"/>
+                <text order="1" value="Theodore:...!"/>
+                <text order="2" value="Dubeaufeu:You're lucky I can't kill you right now!"/>
+                <text order="3" value="himself:Where did I saw him before..."/>
+                <text order="4" value="Dubeaufeu:Lost your tongue ? Why are you so silent ?"/>
+                <text order="5" value="Theodore:Just to be clear, I don't know you."/>
+                <text order="6" value="Theodore:So stop talking like we're old friend or else !"/>
+                <text order="7" value="Dubeaufeau:...!"/>
+                <text order="8" value="Dubeaufeu:You forgot ? So Blanche was right..."/>
+                <text order="9" value="Theodore:Blanche ? Who are you talking about ?"/>
+                <text order="10" value="Dubeaufeu:I won't be the one to answer you sorry !:normal"/>
+                <text order="11" value="himself : What ? His behavior totally changed !"/>
+                <text order="12" value="Dubeaufeu:So why am I here detective ? : : Q1"/>
+                <text order="13" value="xxx"/>
+                <text order="14" value="xxx"/>
+                <text order="15" value="xxx"/>
+                <text order="16" value="xxx"/>
+                <text order="17" value="Dubeaufeu:Oh so you founded all those beautiful creatures ?"/>
+                <text order="18" value="Theodore:'Beautiful' is not the exact word. Why did you kill them ?"/>
+                <text order="19" value="Dubeaufeu:I don't want her to be alone."/>
+                <text order="20" value="himself :..."/>
+                <text order="21" value="Theodore:Is that all ?"/>
+                <text order="22" value="Dubeaufeu:She told me to do it. For my loved one."/>
+                <text order="23" value="Theodore:Your... loved one?"/>
+                <text order="24" value="Dubeaufeu:She is part of me you know ? I'll never leave her ! : : QCM_1"/>
+                <text order="25" value="xxx"/>
+                <text order="26" value="himself : I think I have testimonies wich can help."/>
+                <text order="27" value="Dubeaufeu:Eleven ? No only nine. : : C1"/>
+                <text order="28" value="Theodore : Here is one more ! : normal"/>
+                <text order="29" value="Murderer : It's make only 10 ! : : C2"/>
+                <text order="30" value="Theodore : And an another one !"/>
+                <text order="31" value="Dubeaufeu:Oh these two ? I killed them for you !:colere"/>
+                <text order="32" value="himself:This is getting strange... : : Q2"/>
+                <text order="33" value="xx"/>
+                <text order="34" value="xx"/>
+                <text order="35" value="Dubeaufeu:....:normal"/>
+                <text order="36" value="Theodore:'Sigh' He won't talk anymore."/>
+                <text order="37" value="Anna :Theo ! I got something interesting."/>
+                <text order="38" value="Anna :This guys was involved fifteen years ago in some accident."/>
+                <text order="39" value="Anna :Five child were missing during 4 days, the rescuers found them in a dark cave."/>
+                <text order="40" value="Anna :Only four were rescued, we don't know what happened to the last one..."/>
+                <text order="41" value="Theodore:I'll add that to the evidences, maybe he'll talk with that. : C2"/>
+                <text order="42" value="Dubeaufeu:!!!:colere"/>
+                <text order="43" value="Dubeaufeu:You got some nerves to show me that ! I'll kill you !"/>
+                <text order="44" value="Theodore:Pierre Dubeaufeu, Blanche Delafleure, Kevin Schmidt, Arthur Doyle and Sophie Lys."/>
+                <text order="45" value="Theodore:Sophie is still missing today..."/>
+                <text order="46" value="Dubeaufeu:Because of you ! You've taken her from me!I'll never forgive you!"/>
+                <text order="47" value="himself:Ok with that reaction I can assume that... : : QCM_2"/>
+                <text order="48" value="xxx"/>
+                <text order="49" value="Dubeaufeu:Grrr !"/>
+                <text order="50" value="Theodore:Now who was the last one in the cave with you and Blanche ?"/>
+                <text order="51" value="Dubeaufeu:This arrogant fool..."/>
+                <text order="52" value="Dubeaufeu:He consume the victim... that's not what she would have wanted !"/>
+                <text order="53" value="himself :A cannibal ?!"/>
+                <text order="54" value="Dubeaufeu:I don't like him but we all share the same burden of my loved one I won't tell you anything more !"/>
+                <text order="55" value="Theodore:Well I think that's all."/>
+                <text order="56" value="Dubeaufeu:They'll find you ! You won't get away this time!"/>
+                <text order="57" value="Theodore:Right..."/>
+            </prop>
+            <prop id="3" list="1" val=""/>
+            <prop id="4" list="0" val=""/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val="0.0"/>
+            <prop id="8" list="0" val="0.0"/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="0.0"/>
+            <prop id="11" list="0" val="0.0"/>
+            <prop id="12" list="0" val="2"/>
+        </s>
+        <s enabled="true" id="63">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="225"/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

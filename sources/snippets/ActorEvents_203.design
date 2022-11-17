@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <set-game-val-62 comment="false" x="37" y="72">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-62 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-game-val-62>
+                        <set-volume comment="false" x="37" y="102">
+                            <times comment="false" id="0" x="0" y="0">
+                                <get-game-val-62 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </times>
+                        </set-volume>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-game-val-62 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <die comment="false" x="37" y="83">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <and comment="false" id="0" x="0" y="0">
+                            <not comment="false" id="0" x="0" y="0">
+                                <is-paused comment="false" id="0" x="0" y="0"/>
+                            </not>
+                            <isalive comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </isalive>
+                        </and>
+                        <noteq comment="false" id="1" x="0" y="0">
+                            <scenename comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="menu"/>
+                        </noteq>
+                    </and>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

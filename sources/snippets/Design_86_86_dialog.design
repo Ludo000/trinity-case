@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-game-val-9 comment="false" x="26" y="40">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <length-list comment="false" id="0" x="0" y="0">
+                            <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                        </length-list>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-9>
+                <if comment="false" x="26" y="75">
+                    <group eventID="1" id="-1">
+                        <set-game-val-61 comment="false" x="37" y="100">
+                            <str-split comment="false" id="0" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                                    <get-game-val-8 comment="false" id="1" x="0" y="0"/>
+                                </get-item>
+                                <int id="1" val=":"/>
+                            </str-split>
+                        </set-game-val-61>
+                        <set-val-86-3 comment="false" x="37" y="135">
+                            <str-split-space comment="false" id="0" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </get-item>
+                            </str-split-space>
+                        </set-val-86-3>
+                        <set-game-val-59 comment="false" x="37" y="170">
+                            <str-trim comment="false" id="0" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="2"/>
+                                </get-item>
+                            </str-trim>
+                        </set-game-val-59>
+                        <set-game-val-64 comment="false" x="37" y="205">
+                            <str-trim comment="false" id="0" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                </get-item>
+                            </str-trim>
+                        </set-game-val-64>
+                        <set-game-val-12 comment="false" x="37" y="240">
+                            <str-trim comment="false" id="0" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="3"/>
+                                </get-item>
+                            </str-trim>
+                        </set-game-val-12>
+                        <set-game-val-55 comment="false" x="37" y="275">
+                            <str-trim comment="false" id="0" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="4"/>
+                                </get-item>
+                            </str-trim>
+                        </set-game-val-55>
+                        <if comment="false" x="37" y="310">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="48" y="335">
+                                    <group eventID="1" id="-1">
+                                        <comment-short comment="false" x="59" y="365">
+                                            <int id="0" val="DIALOGUE"/>
+                                        </comment-short>
+                                        <if comment="false" x="59" y="385">
+                                            <group eventID="1" id="-1">
+                                                <set-font-new comment="false" x="70" y="415">
+                                                    <font eid="31" id="0"/>
+                                                </set-font-new>
+                                                <setanim comment="false" x="70" y="442">
+                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="normal"/>
+                                                </setanim>
+                                                <set-val-86-6 comment="false" x="70" y="474">
+                                                    <int id="0" val="normal"/>
+                                                </set-val-86-6>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="himself"/>
+                                            </eq>
+                                        </if>
+                                        <else-if comment="false" x="59" y="506">
+                                            <group eventID="1" id="-1">
+                                                <if comment="false" x="70" y="536">
+                                                    <group eventID="1" id="-1">
+                                                        <set-font-new comment="false" x="81" y="576">
+                                                            <font eid="119" id="0"/>
+                                                        </set-font-new>
+                                                        <setanim comment="false" x="81" y="603">
+                                                            <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="evennement"/>
+                                                        </setanim>
+                                                        <draw-text comment="false" x="81" y="635">
+                                                            <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                                            <plus comment="false" id="1" x="0" y="0">
+                                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                                    <int id="1" val="0"/>
+                                                                </get-xy>
+                                                                <int id="1" val="45"/>
+                                                            </plus>
+                                                            <plus comment="false" id="2" x="0" y="0">
+                                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                                    <int id="1" val="1"/>
+                                                                </get-xy>
+                                                                <int id="1" val="25"/>
+                                                            </plus>
+                                                        </draw-text>
+                                                        <set-font-new comment="false" x="81" y="678">
+                                                            <font eid="118" id="0"/>
+                                                        </set-font-new>
+                                                        <set-val-86-6 comment="false" x="81" y="705">
+                                                            <int id="0" val="eve"/>
+                                                        </set-val-86-6>
+                                                    </group>
+                                                    <or comment="false" id="0" x="0" y="0">
+                                                        <eq comment="false" id="0" x="0" y="0">
+                                                            <scenename comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="05 act1 scene01 interro"/>
+                                                        </eq>
+                                                        <or comment="false" id="1" x="0" y="0">
+                                                            <eq comment="false" id="0" x="0" y="0">
+                                                                <scenename comment="false" id="0" x="0" y="0"/>
+                                                                <int id="1" val="08 act1 scene02 interro"/>
+                                                            </eq>
+                                                            <eq comment="false" id="1" x="0" y="0">
+                                                                <scenename comment="false" id="0" x="0" y="0"/>
+                                                                <int id="1" val="11 act1 scene03 interro"/>
+                                                            </eq>
+                                                        </or>
+                                                    </or>
+                                                </if>
+                                                <else comment="false" x="70" y="737">
+                                                    <group eventID="1" id="-1">
+                                                        <setanim comment="false" x="81" y="757">
+                                                            <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="normal"/>
+                                                        </setanim>
+                                                        <set-font-new comment="false" x="81" y="789">
+                                                            <font eid="82" id="0"/>
+                                                        </set-font-new>
+                                                        <draw-text comment="false" x="81" y="816">
+                                                            <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                                            <plus comment="false" id="1" x="0" y="0">
+                                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                                    <int id="1" val="0"/>
+                                                                </get-xy>
+                                                                <int id="1" val="45"/>
+                                                            </plus>
+                                                            <plus comment="false" id="2" x="0" y="0">
+                                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                                    <int id="1" val="1"/>
+                                                                </get-xy>
+                                                                <int id="1" val="25"/>
+                                                            </plus>
+                                                        </draw-text>
+                                                        <set-font-new comment="false" x="81" y="859">
+                                                            <font eid="2" id="0"/>
+                                                        </set-font-new>
+                                                    </group>
+                                                </else>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="Anna"/>
+                                            </eq>
+                                        </else-if>
+                                        <else-if comment="false" x="59" y="910">
+                                            <group eventID="1" id="-1">
+                                                <setanim comment="false" x="70" y="940">
+                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="normal"/>
+                                                </setanim>
+                                                <set-font-new comment="false" x="70" y="972">
+                                                    <font eid="2" id="0"/>
+                                                </set-font-new>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="hors"/>
+                                            </eq>
+                                        </else-if>
+                                        <else comment="false" x="59" y="1011">
+                                            <group eventID="1" id="-1">
+                                                <setanim comment="false" x="70" y="1031">
+                                                    <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="normal"/>
+                                                </setanim>
+                                                <set-font-new comment="false" x="70" y="1063">
+                                                    <font eid="82" id="0"/>
+                                                </set-font-new>
+                                                <draw-text comment="false" x="70" y="1090">
+                                                    <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                                    <plus comment="false" id="1" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="0"/>
+                                                        </get-xy>
+                                                        <int id="1" val="45"/>
+                                                    </plus>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-xy>
+                                                        <int id="1" val="25"/>
+                                                    </plus>
+                                                </draw-text>
+                                                <set-font-new comment="false" x="70" y="1133">
+                                                    <font eid="2" id="0"/>
+                                                </set-font-new>
+                                            </group>
+                                        </else>
+                                        <set-val-86-7 comment="false" x="59" y="1172">
+                                            <int id="0" val="0"/>
+                                        </set-val-86-7>
+                                        <set-val-86-8 comment="false" x="59" y="1192">
+                                            <int id="0" val="0"/>
+                                        </set-val-86-8>
+                                        <for-each comment="false" x="59" y="1212">
+                                            <group eventID="1" id="-1">
+                                                <if comment="false" x="70" y="1237">
+                                                    <group eventID="1" id="-1">
+                                                        <set-val-86-9 comment="false" x="81" y="1267">
+                                                            <plus comment="false" id="0" x="0" y="0">
+                                                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                                                    <font eid="118" id="0"/>
+                                                                    <code-short comment="false" id="1" x="0" y="0">
+                                                                        <int id="0" val="convertToPseudoUnicode(item)"/>
+                                                                    </code-short>
+                                                                </get-font-width2-new>
+                                                                <get-font-width2-new comment="false" id="1" x="0" y="0">
+                                                                    <font eid="118" id="0"/>
+                                                                    <int id="1" val=" "/>
+                                                                </get-font-width2-new>
+                                                            </plus>
+                                                        </set-val-86-9>
+                                                    </group>
+                                                    <eq comment="false" id="0" x="0" y="0">
+                                                        <get-val-86-6 comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="eve"/>
+                                                    </eq>
+                                                </if>
+                                                <else-if comment="false" x="70" y="1322">
+                                                    <group eventID="1" id="-1">
+                                                        <set-val-86-9 comment="false" x="81" y="1352">
+                                                            <plus comment="false" id="0" x="0" y="0">
+                                                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                                                    <font eid="31" id="0"/>
+                                                                    <code-short comment="false" id="1" x="0" y="0">
+                                                                        <int id="0" val="convertToPseudoUnicode(item)"/>
+                                                                    </code-short>
+                                                                </get-font-width2-new>
+                                                                <get-font-width2-new comment="false" id="1" x="0" y="0">
+                                                                    <font eid="31" id="0"/>
+                                                                    <int id="1" val=" "/>
+                                                                </get-font-width2-new>
+                                                            </plus>
+                                                        </set-val-86-9>
+                                                    </group>
+                                                    <eq comment="false" id="0" x="0" y="0">
+                                                        <get-val-86-6 comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="himself"/>
+                                                    </eq>
+                                                </else-if>
+                                                <else comment="false" x="70" y="1407">
+                                                    <group eventID="1" id="-1">
+                                                        <set-val-86-9 comment="false" x="81" y="1427">
+                                                            <plus comment="false" id="0" x="0" y="0">
+                                                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                                                    <font eid="2" id="0"/>
+                                                                    <code-short comment="false" id="1" x="0" y="0">
+                                                                        <int id="0" val="convertToPseudoUnicode(item)"/>
+                                                                    </code-short>
+                                                                </get-font-width2-new>
+                                                                <get-font-width2-new comment="false" id="1" x="0" y="0">
+                                                                    <font eid="2" id="0"/>
+                                                                    <int id="1" val=" "/>
+                                                                </get-font-width2-new>
+                                                            </plus>
+                                                        </set-val-86-9>
+                                                    </group>
+                                                </else>
+                                                <draw-text comment="false" x="70" y="1482">
+                                                    <code-short comment="false" id="0" x="0" y="0">
+                                                        <int id="0" val="convertToPseudoUnicode(item)"/>
+                                                    </code-short>
+                                                    <plus comment="false" id="1" x="0" y="0">
+                                                        <get-val-86-8 comment="false" id="0" x="0" y="0"/>
+                                                        <plus comment="false" id="1" x="0" y="0">
+                                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                                <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                                <int id="1" val="0"/>
+                                                            </get-xy>
+                                                            <int id="1" val="30"/>
+                                                        </plus>
+                                                    </plus>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <get-val-86-7 comment="false" id="0" x="0" y="0"/>
+                                                        <plus comment="false" id="1" x="0" y="0">
+                                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                                <get-val-86-12 comment="false" id="0" x="0" y="0"/>
+                                                                <int id="1" val="1"/>
+                                                            </get-xy>
+                                                            <int id="1" val="80"/>
+                                                        </plus>
+                                                    </plus>
+                                                </draw-text>
+                                                <incdec comment="false" x="70" y="1530">
+                                                    <int id="0" val="8"/>
+                                                    <int id="1" val="0"/>
+                                                    <get-val-86-9 comment="false" id="2" x="0" y="0"/>
+                                                </incdec>
+                                                <if comment="false" x="70" y="1562">
+                                                    <group eventID="1" id="-1">
+                                                        <incdec comment="false" x="81" y="1592">
+                                                            <int id="0" val="7"/>
+                                                            <int id="1" val="0"/>
+                                                            <plus comment="false" id="2" x="0" y="0">
+                                                                <get-font-height2-new comment="false" id="0" x="0" y="0">
+                                                                    <font eid="2" id="0"/>
+                                                                </get-font-height2-new>
+                                                                <int id="1" val="5"/>
+                                                            </plus>
+                                                        </incdec>
+                                                        <set-val-86-8 comment="false" x="81" y="1637">
+                                                            <int id="0" val="0"/>
+                                                        </set-val-86-8>
+                                                    </group>
+                                                    <more comment="false" id="0" x="0" y="0">
+                                                        <get-val-86-8 comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="1400"/>
+                                                    </more>
+                                                </if>
+                                            </group>
+                                            <get-val-86-3 comment="false" id="0" x="0" y="0"/>
+                                        </for-each>
+                                    </group>
+                                    <lesseq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                                        <get-game-val-9 comment="false" id="1" x="0" y="0"/>
+                                    </lesseq>
+                                </if>
+                            </group>
+                            <get-game-val-56 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-60 comment="false" x="26" y="40">
+                    <get-val-86-2 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-60>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

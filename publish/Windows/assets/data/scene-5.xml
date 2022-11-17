@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="10" desc="" eventsnippetid="38" extheight="1152" extwidth="1984" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1088" id="5" name="03 act01 scene01 Breiffing" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1920">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <background blendMode="normal" customScrollFactor="false" id="9" locked="true" name="office" opacity="100" order="10" rid="78" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="10" locked="false" name="perso_tete" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_tron" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,175,175" id="11" locked="false" name="perso_bouche" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,0" id="12" locked="false" name="perso_joue" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="table" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="dialogue" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="2" locked="false" name="bouton choix" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="14" locked="false" name="karma" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="15" locked="false" name="fleche" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="13" locked="false" name="QCM" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="120" id="0" name="Region 0" pts="4,-26.0,-60.0,26.0,-60.0,26.0,60.0,-26.0,60.0" r="64" type="box" w="52" x="1575" y="132"/>
+        <region b="64" g="64" h="120" id="1" name="Region 1" pts="4,-21.0,-60.0,21.0,-60.0,21.0,60.0,-21.0,60.0" r="64" type="box" w="42" x="1587" y="290"/>
+        <region b="64" g="64" h="120" id="2" name="Region 2" pts="4,-19.0,-60.0,19.0,-60.0,19.0,60.0,-19.0,60.0" r="64" type="box" w="38" x="1587" y="454"/>
+        <region b="64" g="64" h="134" id="3" name="Region 3" pts="4,0.0,0.0,0.0,134.0,76.0,134.0,76.0,0.0" r="64" type="box" w="76" x="1567" y="652"/>
+        <region b="64" g="64" h="30" id="4" name="Region 4" pts="4,-325.0,-15.0,325.0,-15.0,325.0,15.0,-325.0,15.0" r="64" type="box" w="650" x="686" y="629"/>
+        <region b="64" g="64" h="30" id="5" name="Region 5" pts="4,-316.0,-15.0,316.0,-15.0,316.0,15.0,-316.0,15.0" r="64" type="box" w="632" x="688" y="665"/>
+        <region b="64" g="64" h="30" id="6" name="Region 6" pts="4,-312.0,-15.0,312.0,-15.0,312.0,15.0,-312.0,15.0" r="64" type="box" w="624" x="693" y="700"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="3" id="4" name="fond_dialog 2" sx="1.0" sy="1.0" x="42" y="802" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="0" name="actor1 3" sx="1.0" sy="1.0" x="1777" y="957" z="2"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="6" name="fleche 4" sx="1.0" sy="1.0" x="1680" y="816" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="10" name="button1 6" sx="1.0" sy="1.0" x="1400" y="350" z="2"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="12" name="button2 7" sx="1.0" sy="1.0" x="1700" y="350" z="2"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="20" name="rond 10" sx="1.0" sy="1.0" x="1607" y="415" z="2"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="32" name="table 15" sx="1.0" sy="1.0" x="245" y="928" z="6"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="42" name="wait_proof 17" sx="1.0" sy="1.0" x="1749" y="680" z="2"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="64" name="anna_tron 18" sx="1.0" sy="1.0" x="532" y="280" z="5"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="72" name="anna_tete 19" sx="1.0" sy="1.0" x="534" y="282" z="10"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="70" name="anna_bouche 20" sx="1.0" sy="1.0" x="534" y="286" z="11"/>
+        <actor a="0.0" aid="21" c="false" group="3" id="75" name="anna_joue 21" sx="1.0" sy="1.0" x="533" y="301" z="12"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="79" name="fond_QCM 22" sx="1.0" sy="1.0" x="684" y="596" z="13"/>
+        <actor a="0.0" aid="23" c="false" group="3" id="83" name="karma_bar 23" sx="1.0" sy="1.0" x="460" y="1" z="14"/>
+        <actor a="0.0" aid="24" c="false" group="3" id="85" name="karma_fleche 24" sx="1.0" sy="1.0" x="460" y="1" z="15"/>
+        <actor a="0.0" aid="25" c="false" group="3" id="87" name="vie 25" sx="1.0" sy="1.0" x="1" y="0" z="14"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="19">
+            <prop id="2" list="0" val="No Control"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val="-1"/>
+            <prop id="12" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="86">
+            <prop id="1" list="1" val=""/>
+            <prop id="2" list="1" val="">
+                <text order="0" value="Anna:Well let's start the briefing!:normal"/>
+                <text order="1" value="Anna:The murder took place Monday 20th of July in a karaoke."/>
+                <text order="2" value="Theodore:So there's a karaoke here ?"/>
+                <text order="3" value="Anna:Yeah of course. Every town got one no?"/>
+                <text order="4" value="Theodore:No."/>
+                <text order="5" value="Anna:Well your towns are just not cool enough.:serieux_sourire"/>
+                <text order="6" value="Anna:So where was I ..."/>
+                <text order="7" value="Anna:Ah yes so the victim's name is Naomi Weaver, she was on vacation here.:content"/>
+                <text order="8" value="Anna:She was strangled with a rope inside one of the karaoke room. The killer put some tissue gag in here mouth too."/>
+                <text order="9" value="Anna:The manager of the karaoke found her at the closure."/>
+                <text order="10" value="Theodore:Okay, Is there any clue ?"/>
+                <text order="11" value="Anna:Few things, we found some DNA on the tissue in the victim's mouth but no match in our files."/>
+                <text order="12" value="Anna:Only one set of prints were found on the camera which was in the room."/>
+                <text order="13" value="Anna:And we also got the SD card in the camera, a recording of the murder live !"/>
+                <text order="14" value="Theodore:But let me guess we can't identify the killer on the record ?"/>
+                <text order="15" value="Anna:Yup he never shows his face to the camera.But it shown that the killer was wearing gloves.:frustre"/>
+                <text order="16" value="Anna:But there is some strange things:normal"/>
+                <text order="17" value="Anna:First the camera in the room is for big occasion only which today was not,and the manager cleans them before every closure."/>
+                <text order="18" value="Anna:The prints we found on it ..."/>
+                <text order="19" value="himself:I can make an deduction here, only one answer is right, if I choose the wrong one I'll loose credibility. : : QCM_1"/>
+                <text order="20" value="xxx"/>
+                <text order="21" value="Theodore:We have to find this person ,he surely is deeply involved!"/>
+                <text order="22" value="Anna:Oh but we already found him."/>
+                <text order="23" value="Theodore:What you could have told me !"/>
+                <text order="24" value="Anna:Hey you're the one who interrupted me ! : frustre"/>
+                <text order="25" value="Theodore:'Sigh' Ok what else is strange ?"/>
+                <text order="26" value="Anna:We come to the creepy part...: frustre : : : silence_musique"/>
+                <text order="27" value="Anna:The camera was modified,so instead of the song lyric the camera's display was on screen. : : : musique_tension"/>
+                <text order="28" value="Anna:So victim saw the killer killing her on live."/>
+                <text order="29" value="Anna:That remind me of that movie..."/>
+                <text order="30" value="Theodore:Well this sure is strange..."/>
+                <text order="31" value="Anna:You know , you must have heard of it..."/>
+                <text order="32" value="Anna:The strange murders all around the country..."/>
+                <text order="33" value="Anna:It's linked to a group of killers who travels together... creepy."/>
+                <text order="34" value="himself:Yeah I heard the story , but why would they be here ?"/>
+                <text order="35" value="Theodore:Anyway I think we should interrogate the owner of these prints."/>
+            </prop>
+            <prop id="3" list="1" val=""/>
+            <prop id="4" list="0" val=""/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val="0.0"/>
+            <prop id="8" list="0" val="0.0"/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="0.0"/>
+            <prop id="11" list="0" val="0.0"/>
+            <prop id="12" list="0" val="2"/>
+        </s>
+        <s enabled="true" id="63">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="188"/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>
