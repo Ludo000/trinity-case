@@ -456,7 +456,7 @@
                                                 <replace-list comment="false" x="70" y="742">
                                                     <get-game-val-60 comment="false" id="0" x="0" y="0"/>
                                                     <get-game-val-8 comment="false" id="1" x="0" y="0"/>
-                                                    <int id="2" val="Theodore: Honnestly it doesn&amp;apos;t matter if you eat my cake, i like to resolve mysteries, but make it more difficult next time !"/>
+                                                    <int id="2" val="Theodore: Honnestly it doesn&amp;apos;t matter if you eat my cake, i like to resolve mysteries, but make it more difficult next time ! :montre"/>
                                                 </replace-list>
                                             </group>
                                             <eq comment="false" id="0" x="0" y="0">
@@ -469,7 +469,7 @@
                                                 <replace-list comment="false" x="70" y="809">
                                                     <get-game-val-60 comment="false" id="0" x="0" y="0"/>
                                                     <get-game-val-8 comment="false" id="1" x="0" y="0"/>
-                                                    <int id="2" val="Theodore: Honnestly it wasn&amp;apos;t to difficult but from now on try to avoid to repeat the same deed 5 week in a row, you&amp;apos;d end up in jail pretty fast."/>
+                                                    <int id="2" val="Theodore: Honnestly it wasn&amp;apos;t to difficult but from now on try to avoid to repeat the same deed 5 week in a row, you&amp;apos;d end up in jail pretty fast. :montre"/>
                                                 </replace-list>
                                             </group>
                                             <eq comment="false" id="0" x="0" y="0">
@@ -824,9 +824,9 @@
                                                 <int id="1" val="200"/>
                                             </plus>
                                         </draw-text>
-                                        <set-val-22-29 comment="true" x="59" y="2324">
-                                            <str-split-space comment="true" id="0" x="0" y="0">
-                                                <get-val-22-28 comment="true" id="0" x="0" y="0"/>
+                                        <set-val-22-29 comment="false" x="59" y="2324">
+                                            <str-split-space comment="false" id="0" x="0" y="0">
+                                                <get-val-22-28 comment="false" id="0" x="0" y="0"/>
                                             </str-split-space>
                                         </set-val-22-29>
                                         <for-each comment="true" x="59" y="2354">

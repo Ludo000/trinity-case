@@ -2,6 +2,7 @@
 <scene depth="5" desc="" eventsnippetid="115" extheight="1152" extwidth="1984" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="1088" id="48" name="01_2 black" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1920">
     <layers>
         <color-bg blue="0" green="0" red="0"/>
+        <background blendMode="normal" customScrollFactor="false" id="18" locked="true" name="leave" opacity="100" order="5" rid="226" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="table" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="dialogue" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,200,0" id="17" locked="false" name="choix" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -59,7 +60,7 @@
         <s enabled="true" id="63">
             <prop id="1" list="0" val="0.0"/>
             <prop id="2" list="0" val="true"/>
-            <prop id="3" list="0" val="No Sound"/>
+            <prop id="3" list="0" val="-1"/>
         </s>
     </snippets>
     <terrain/>
