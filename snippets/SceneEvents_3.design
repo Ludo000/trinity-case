@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="32" id="0">
+        <receiver-4-99 comment="false" x="15" y="15">
+            <group eventID="32" id="-1">
+                <if comment="false" x="26" y="45">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="75">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="107">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content_plus"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="139">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="171">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="content"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="215">
+                    <group eventID="32" id="-1">
+                        <toggle-image comment="false" x="37" y="245">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="277">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="309">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="341">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <setanim comment="false" x="37" y="373">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="405">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content_plus"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="437">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="salut"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="appear"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="481">
+                    <group eventID="32" id="-1">
+                        <toggle-image comment="false" x="37" y="511">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="543">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="575">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="607">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="appear2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="651">
+                    <group eventID="32" id="-1">
+                        <toggle-image comment="false" x="37" y="681">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="713">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="745">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                        <toggle-image comment="false" x="37" y="777">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="disappear"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="821">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="851">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="883">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="915">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="normal"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="959">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="989">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="sad"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1021">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="grrr"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1053">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="1085">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="frustre"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1129">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="1159">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="sad"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1191">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="pas_content"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1223">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="1255">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="decu"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1299">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="1329">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="serious"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1361">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="grrr"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1393">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="1425">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="enerve"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1469">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="1499">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1531">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="pas_content"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1563">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="1595">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="pas_content"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1639">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="1669">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="serious"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1701">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1733">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="1765">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="serieux_sourire"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1809">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="1839">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="shocked"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1871">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="grrr"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="1903">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="1935">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="surpris"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1979">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="2009">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="shocked"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="2041">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="grrr"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="2073">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="shot"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="2105">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="shot"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="2149">
+                    <group eventID="32" id="-1">
+                        <setanim comment="false" x="37" y="2179">
+                            <get-byobval-22-99-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="sad"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="2211">
+                            <get-byobval-22-99-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="2243">
+                            <get-byobval-22-99-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="detendu"/>
+                        </setanim>
+                        <toggle-image comment="false" x="37" y="2275">
+                            <get-byobval-22-99-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="rougit"/>
+                    </eq>
+                </else-if>
+            </group>
+            <get-byobval-22-99-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-22-99-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-22-99-2 comment="false" id="2" x="0" y="0"/>
+            <int id="3" val=""/>
+            <get-byobval-22-99-4 comment="false" id="4" x="0" y="0"/>
+            <get-byobval-22-99-5 comment="false" id="5" x="0" y="0"/>
+        </receiver-4-99>
+    </group>
+    <group eventID="32" id="-1"/>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <custom-96 comment="false" x="37" y="70">
+                            <get-game-val-59 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="19" id="1"/>
+                            <ACTOR eid="20" id="2"/>
+                            <ACTOR eid="21" id="3"/>
+                            <ACTOR eid="18" id="4"/>
+                            <ACTOR eid="22" id="5"/>
+                        </custom-96>
+                        <if comment="false" x="37" y="102">
+                            <group eventID="1" id="-1">
+                                <set-font-new comment="false" x="48" y="137">
+                                    <font eid="2" id="0"/>
+                                </set-font-new>
+                                <draw-text comment="false" x="48" y="164">
+                                    <get-game-val-10 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1811"/>
+                                    <int id="2" val="884"/>
+                                </draw-text>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <less comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <get-game-val-10 comment="false" id="1" x="0" y="0"/>
+                                </less>
+                                <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                            </and>
+                        </if>
+                        <if comment="false" x="37" y="201">
+                            <group eventID="1" id="-1">
+                                <set-font-new comment="false" x="48" y="231">
+                                    <font eid="16" id="0"/>
+                                </set-font-new>
+                                <draw-text comment="false" x="48" y="258">
+                                    <int id="0" val="Good guy"/>
+                                    <int id="1" val="1740"/>
+                                    <int id="2" val="460"/>
+                                </draw-text>
+                                <set-font-new comment="false" x="48" y="278">
+                                    <font eid="19" id="0"/>
+                                </set-font-new>
+                                <draw-text comment="false" x="48" y="305">
+                                    <int id="0" val="Chide her"/>
+                                    <int id="1" val="1420"/>
+                                    <int id="2" val="460"/>
+                                </draw-text>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <get-game-val-11 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-6 comment="false" id="1" x="0" y="0"/>
+                            </and>
+                        </if>
+                        <if comment="false" x="37" y="337">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="48" y="362">
+                                    <group eventID="1" id="-1">
+                                        <toggle-image comment="false" x="59" y="402">
+                                            <ACTOR eid="17" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </toggle-image>
+                                        <set-game-val-7 comment="false" x="59" y="429">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-7>
+                                        <set-game-val-10 comment="false" x="59" y="454">
+                                            <int id="0" val="-1"/>
+                                        </set-game-val-10>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
+                                            <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="C1"/>
+                                        </eq>
+                                        <or comment="false" id="1" x="0" y="0">
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="C2"/>
+                                            </eq>
+                                            <eq comment="false" id="1" x="0" y="0">
+                                                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="C3"/>
+                                            </eq>
+                                        </or>
+                                    </or>
+                                </if>
+                                <else-if comment="false" x="48" y="486">
+                                    <group eventID="1" id="-1">
+                                        <set-game-val-11 comment="false" x="59" y="516">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-11>
+                                        <set-game-val-7 comment="false" x="59" y="541">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-7>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="Q1"/>
+                                    </eq>
+                                </else-if>
+                                <else comment="false" x="48" y="578">
+                                    <group eventID="1" id="-1">
+                                        <set-game-val-11 comment="false" x="59" y="598">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-11>
+                                        <toggle-image comment="false" x="59" y="623">
+                                            <ACTOR eid="17" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </toggle-image>
+                                    </group>
+                                </else>
+                                <if comment="false" x="48" y="662">
+                                    <group eventID="1" id="-1">
+                                        <set-game-val-13 comment="false" x="59" y="687">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-13>
+                                        <if comment="false" x="59" y="712">
+                                            <group eventID="1" id="-1">
+                                                <replace-list comment="false" x="70" y="742">
+                                                    <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-8 comment="false" id="1" x="0" y="0"/>
+                                                    <int id="2" val="Theodore: Honnestly it doesn&amp;apos;t matter if you eat my cake, i like to resolve mysteries, but make it more difficult next time !"/>
+                                                </replace-list>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-game-val-17 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="good"/>
+                                            </eq>
+                                        </if>
+                                        <else-if comment="false" x="59" y="779">
+                                            <group eventID="1" id="-1">
+                                                <replace-list comment="false" x="70" y="809">
+                                                    <get-game-val-60 comment="false" id="0" x="0" y="0"/>
+                                                    <get-game-val-8 comment="false" id="1" x="0" y="0"/>
+                                                    <int id="2" val="Theodore: Honnestly it wasn&amp;apos;t to difficult but from now on try to avoid to repeat the same deed 5 week in a row, you&amp;apos;d end up in jail pretty fast."/>
+                                                </replace-list>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-game-val-17 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="bad"/>
+                                            </eq>
+                                        </else-if>
+                                    </group>
+                                    <get-game-val-13 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                            </group>
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="870">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="48" y="900">
+                                    <group eventID="1" id="-1">
+                                        <set-font-new comment="false" x="59" y="930">
+                                            <font eid="25" id="0"/>
+                                        </set-font-new>
+                                        <draw-text comment="true" x="59" y="957">
+                                            <int id="0" val="Anna"/>
+                                            <plus comment="true" id="1" x="0" y="0">
+                                                <get-xy comment="true" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="0"/>
+                                                </get-xy>
+                                                <int id="1" val="380"/>
+                                            </plus>
+                                            <plus comment="true" id="2" x="0" y="0">
+                                                <get-xy comment="true" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="1"/>
+                                                </get-xy>
+                                                <int id="1" val="100"/>
+                                            </plus>
+                                        </draw-text>
+                                        <set-font-new comment="false" x="59" y="995">
+                                            <font eid="26" id="0"/>
+                                        </set-font-new>
+                                        <set-val-22-7 comment="false" x="59" y="1022">
+                                            <int id="0" val="0"/>
+                                        </set-val-22-7>
+                                        <set-val-22-14 comment="false" x="59" y="1042">
+                                            <int id="0" val="0"/>
+                                        </set-val-22-14>
+                                        <set-val-22-32 comment="false" x="59" y="1062">
+                                            <str-split-space comment="false" id="0" x="0" y="0">
+                                                <get-val-22-6 comment="false" id="0" x="0" y="0"/>
+                                            </str-split-space>
+                                        </set-val-22-32>
+                                        <for-each comment="false" x="59" y="1092">
+                                            <group eventID="1" id="-1">
+                                                <if comment="false" x="70" y="1117">
+                                                    <group eventID="1" id="-1">
+                                                        <set-font-new comment="false" x="81" y="1147">
+                                                            <font eid="44" id="0"/>
+                                                        </set-font-new>
+                                                    </group>
+                                                    <eq comment="false" id="0" x="0" y="0">
+                                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="&amp;lt;b&amp;gt;"/>
+                                                    </eq>
+                                                </if>
+                                                <if comment="false" x="70" y="1186">
+                                                    <group eventID="1" id="-1">
+                                                        <set-font-new comment="false" x="81" y="1216">
+                                                            <font eid="26" id="0"/>
+                                                        </set-font-new>
+                                                    </group>
+                                                    <eq comment="false" id="0" x="0" y="0">
+                                                        <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="&amp;lt;/b&amp;gt;"/>
+                                                    </eq>
+                                                </if>
+                                                <if comment="false" x="70" y="1255">
+                                                    <group eventID="1" id="-1">
+                                                        <draw-text comment="false" x="81" y="1295">
+                                                            <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                            <plus comment="false" id="1" x="0" y="0">
+                                                                <get-val-22-14 comment="false" id="0" x="0" y="0"/>
+                                                                <plus comment="false" id="1" x="0" y="0">
+                                                                    <get-xy comment="false" id="0" x="0" y="0">
+                                                                        <ACTOR eid="12" id="0"/>
+                                                                        <int id="1" val="0"/>
+                                                                    </get-xy>
+                                                                    <int id="1" val="380"/>
+                                                                </plus>
+                                                            </plus>
+                                                            <plus comment="false" id="2" x="0" y="0">
+                                                                <get-val-22-7 comment="false" id="0" x="0" y="0"/>
+                                                                <plus comment="false" id="1" x="0" y="0">
+                                                                    <get-xy comment="false" id="0" x="0" y="0">
+                                                                        <ACTOR eid="12" id="0"/>
+                                                                        <int id="1" val="1"/>
+                                                                    </get-xy>
+                                                                    <int id="1" val="200"/>
+                                                                </plus>
+                                                            </plus>
+                                                        </draw-text>
+                                                        <incdec comment="false" x="81" y="1338">
+                                                            <int id="0" val="14"/>
+                                                            <int id="1" val="0"/>
+                                                            <plus comment="false" id="2" x="0" y="0">
+                                                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                                                    <font eid="26" id="0"/>
+                                                                    <for-each-item comment="false" id="1" x="0" y="0"/>
+                                                                </get-font-width2-new>
+                                                                <int id="1" val="10"/>
+                                                            </plus>
+                                                        </incdec>
+                                                    </group>
+                                                    <and comment="false" id="0" x="0" y="0">
+                                                        <noteq comment="false" id="0" x="0" y="0">
+                                                            <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="&amp;lt;br&amp;gt;"/>
+                                                        </noteq>
+                                                        <and comment="false" id="1" x="0" y="0">
+                                                            <noteq comment="false" id="0" x="0" y="0">
+                                                                <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                                <int id="1" val="&amp;lt;b&amp;gt;"/>
+                                                            </noteq>
+                                                            <noteq comment="false" id="1" x="0" y="0">
+                                                                <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                                <int id="1" val="&amp;lt;/b&amp;gt;"/>
+                                                            </noteq>
+                                                        </and>
+                                                    </and>
+                                                </if>
+                                                <if comment="false" x="70" y="1400">
+                                                    <group eventID="1" id="-1">
+                                                        <incdec comment="false" x="81" y="1435">
+                                                            <int id="0" val="7"/>
+                                                            <int id="1" val="0"/>
+                                                            <plus comment="false" id="2" x="0" y="0">
+                                                                <get-font-height2-new comment="false" id="0" x="0" y="0">
+                                                                    <font eid="26" id="0"/>
+                                                                </get-font-height2-new>
+                                                                <int id="1" val="5"/>
+                                                            </plus>
+                                                        </incdec>
+                                                        <set-val-22-14 comment="false" x="81" y="1480">
+                                                            <int id="0" val="0"/>
+                                                        </set-val-22-14>
+                                                    </group>
+                                                    <or comment="false" id="0" x="0" y="0">
+                                                        <more comment="false" id="0" x="0" y="0">
+                                                            <get-val-22-14 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="400"/>
+                                                        </more>
+                                                        <eq comment="false" id="1" x="0" y="0">
+                                                            <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="&amp;lt;br&amp;gt;"/>
+                                                        </eq>
+                                                    </or>
+                                                </if>
+                                            </group>
+                                            <get-val-22-32 comment="false" id="0" x="0" y="0"/>
+                                        </for-each>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </eq>
+                                </if>
+                                <else-if comment="false" x="48" y="1536">
+                                    <group eventID="1" id="-1">
+                                        <set-font-new comment="false" x="59" y="1566">
+                                            <font eid="26" id="0"/>
+                                        </set-font-new>
+                                        <draw-text comment="false" x="59" y="1593">
+                                            <int id="0" val="Observation: Anna left during classroom."/>
+                                            <custom-105 comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="23" id="0"/>
+                                            </custom-105>
+                                            <custom-106 comment="false" id="2" x="0" y="0">
+                                                <ACTOR eid="23" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </custom-106>
+                                        </draw-text>
+                                        <draw-text comment="false" x="59" y="1626">
+                                            <int id="0" val="Suspect&amp;apos;s antedecedent : Several case"/>
+                                            <custom-105 comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="24" id="0"/>
+                                            </custom-105>
+                                            <custom-106 comment="false" id="2" x="0" y="0">
+                                                <ACTOR eid="24" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </custom-106>
+                                        </draw-text>
+                                        <draw-text comment="false" x="59" y="1659">
+                                            <int id="0" val="of theft of (my) food."/>
+                                            <custom-105 comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="24" id="0"/>
+                                            </custom-105>
+                                            <custom-106 comment="false" id="2" x="0" y="0">
+                                                <ACTOR eid="24" id="0"/>
+                                                <int id="1" val="20"/>
+                                            </custom-106>
+                                        </draw-text>
+                                        <draw-text comment="false" x="59" y="1692">
+                                            <int id="0" val="Chewing gum in lock of cloakroom"/>
+                                            <custom-105 comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="25" id="0"/>
+                                            </custom-105>
+                                            <custom-106 comment="false" id="2" x="0" y="0">
+                                                <ACTOR eid="25" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </custom-106>
+                                        </draw-text>
+                                        <if comment="false" x="59" y="1725">
+                                            <group eventID="1" id="-1">
+                                                <set-color comment="false" x="70" y="1750">
+                                                    <color b="0" g="0" id="0" r="0"/>
+                                                </set-color>
+                                                <set-thickness comment="false" x="70" y="1777">
+                                                    <int id="0" val="5"/>
+                                                </set-thickness>
+                                                <drawfill-rect comment="false" x="70" y="1797">
+                                                    <int id="0" val="0"/>
+                                                    <minus comment="false" id="1" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="23" id="0"/>
+                                                            <int id="1" val="0"/>
+                                                        </get-xy>
+                                                        <int id="1" val="10"/>
+                                                    </minus>
+                                                    <minus comment="false" id="2" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="23" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-xy>
+                                                        <int id="1" val="10"/>
+                                                    </minus>
+                                                    <int id="3" val="550"/>
+                                                    <int id="4" val="150"/>
+                                                </drawfill-rect>
+                                            </group>
+                                            <get-val-22-38 comment="false" id="0" x="0" y="0"/>
+                                        </if>
+                                        <else-if comment="false" x="59" y="1854">
+                                            <group eventID="1" id="-1">
+                                                <set-color comment="false" x="70" y="1879">
+                                                    <color b="0" g="0" id="0" r="0"/>
+                                                </set-color>
+                                                <set-thickness comment="false" x="70" y="1906">
+                                                    <int id="0" val="5"/>
+                                                </set-thickness>
+                                                <drawfill-rect comment="false" x="70" y="1926">
+                                                    <int id="0" val="0"/>
+                                                    <minus comment="false" id="1" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="24" id="0"/>
+                                                            <int id="1" val="0"/>
+                                                        </get-xy>
+                                                        <int id="1" val="10"/>
+                                                    </minus>
+                                                    <minus comment="false" id="2" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="24" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-xy>
+                                                        <int id="1" val="10"/>
+                                                    </minus>
+                                                    <int id="3" val="550"/>
+                                                    <int id="4" val="150"/>
+                                                </drawfill-rect>
+                                            </group>
+                                            <get-val-22-39 comment="false" id="0" x="0" y="0"/>
+                                        </else-if>
+                                        <else-if comment="false" x="59" y="1983">
+                                            <group eventID="1" id="-1">
+                                                <set-color comment="false" x="70" y="2008">
+                                                    <color b="0" g="0" id="0" r="0"/>
+                                                </set-color>
+                                                <set-thickness comment="false" x="70" y="2035">
+                                                    <int id="0" val="5"/>
+                                                </set-thickness>
+                                                <drawfill-rect comment="false" x="70" y="2055">
+                                                    <int id="0" val="0"/>
+                                                    <minus comment="false" id="1" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="25" id="0"/>
+                                                            <int id="1" val="0"/>
+                                                        </get-xy>
+                                                        <int id="1" val="10"/>
+                                                    </minus>
+                                                    <minus comment="false" id="2" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="25" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-xy>
+                                                        <int id="1" val="10"/>
+                                                    </minus>
+                                                    <int id="3" val="550"/>
+                                                    <int id="4" val="150"/>
+                                                </drawfill-rect>
+                                            </group>
+                                            <get-val-22-40 comment="false" id="0" x="0" y="0"/>
+                                        </else-if>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="2"/>
+                                    </eq>
+                                </else-if>
+                                <else-if comment="false" x="48" y="2124">
+                                    <group eventID="1" id="-1">
+                                        <set-font-new comment="false" x="59" y="2154">
+                                            <font eid="25" id="0"/>
+                                        </set-font-new>
+                                        <draw-text comment="true" x="59" y="2181">
+                                            <int id="0" val="Murder at the karaoke &amp;quot;Le Bohneur&amp;quot;"/>
+                                            <plus comment="true" id="1" x="0" y="0">
+                                                <get-xy comment="true" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="0"/>
+                                                </get-xy>
+                                                <int id="1" val="380"/>
+                                            </plus>
+                                            <plus comment="true" id="2" x="0" y="0">
+                                                <get-xy comment="true" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="1"/>
+                                                </get-xy>
+                                                <int id="1" val="100"/>
+                                            </plus>
+                                        </draw-text>
+                                        <set-val-22-7 comment="false" x="59" y="2219">
+                                            <int id="0" val="0"/>
+                                        </set-val-22-7>
+                                        <set-val-22-14 comment="false" x="59" y="2239">
+                                            <int id="0" val="0"/>
+                                        </set-val-22-14>
+                                        <set-font-new comment="false" x="59" y="2259">
+                                            <font eid="26" id="0"/>
+                                        </set-font-new>
+                                        <draw-text comment="false" x="59" y="2286">
+                                            <int id="0" val="There is no content here yet."/>
+                                            <plus comment="false" id="1" x="0" y="0">
+                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="0"/>
+                                                </get-xy>
+                                                <int id="1" val="380"/>
+                                            </plus>
+                                            <plus comment="false" id="2" x="0" y="0">
+                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="1"/>
+                                                </get-xy>
+                                                <int id="1" val="200"/>
+                                            </plus>
+                                        </draw-text>
+                                        <set-val-22-29 comment="true" x="59" y="2324">
+                                            <str-split-space comment="true" id="0" x="0" y="0">
+                                                <get-val-22-28 comment="true" id="0" x="0" y="0"/>
+                                            </str-split-space>
+                                        </set-val-22-29>
+                                        <for-each comment="true" x="59" y="2354">
+                                            <group eventID="1" id="-1">
+                                                <if comment="true" x="70" y="2379">
+                                                    <group eventID="1" id="-1">
+                                                        <set-font-new comment="true" x="81" y="2409">
+                                                            <font eid="44" id="0"/>
+                                                        </set-font-new>
+                                                    </group>
+                                                    <eq comment="true" id="0" x="0" y="0">
+                                                        <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                        <int id="1" val="&amp;lt;b&amp;gt;"/>
+                                                    </eq>
+                                                </if>
+                                                <if comment="true" x="70" y="2448">
+                                                    <group eventID="1" id="-1">
+                                                        <set-font-new comment="true" x="81" y="2478">
+                                                            <font eid="26" id="0"/>
+                                                        </set-font-new>
+                                                    </group>
+                                                    <eq comment="true" id="0" x="0" y="0">
+                                                        <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                        <int id="1" val="&amp;lt;/b&amp;gt;"/>
+                                                    </eq>
+                                                </if>
+                                                <if comment="true" x="70" y="2517">
+                                                    <group eventID="1" id="-1">
+                                                        <draw-text comment="true" x="81" y="2557">
+                                                            <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                            <plus comment="true" id="1" x="0" y="0">
+                                                                <get-val-22-14 comment="true" id="0" x="0" y="0"/>
+                                                                <plus comment="true" id="1" x="0" y="0">
+                                                                    <get-xy comment="true" id="0" x="0" y="0">
+                                                                        <ACTOR eid="12" id="0"/>
+                                                                        <int id="1" val="0"/>
+                                                                    </get-xy>
+                                                                    <int id="1" val="380"/>
+                                                                </plus>
+                                                            </plus>
+                                                            <plus comment="true" id="2" x="0" y="0">
+                                                                <get-val-22-7 comment="true" id="0" x="0" y="0"/>
+                                                                <plus comment="true" id="1" x="0" y="0">
+                                                                    <get-xy comment="true" id="0" x="0" y="0">
+                                                                        <ACTOR eid="12" id="0"/>
+                                                                        <int id="1" val="1"/>
+                                                                    </get-xy>
+                                                                    <int id="1" val="200"/>
+                                                                </plus>
+                                                            </plus>
+                                                        </draw-text>
+                                                        <incdec comment="true" x="81" y="2600">
+                                                            <int id="0" val="7"/>
+                                                            <int id="1" val="0"/>
+                                                            <plus comment="true" id="2" x="0" y="0">
+                                                                <get-font-width2-new comment="true" id="0" x="0" y="0">
+                                                                    <font eid="26" id="0"/>
+                                                                    <for-each-item comment="true" id="1" x="0" y="0"/>
+                                                                </get-font-width2-new>
+                                                                <int id="1" val="10"/>
+                                                            </plus>
+                                                        </incdec>
+                                                    </group>
+                                                    <and comment="true" id="0" x="0" y="0">
+                                                        <noteq comment="true" id="0" x="0" y="0">
+                                                            <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                            <int id="1" val="&amp;lt;br&amp;gt;"/>
+                                                        </noteq>
+                                                        <and comment="true" id="1" x="0" y="0">
+                                                            <noteq comment="true" id="0" x="0" y="0">
+                                                                <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                                <int id="1" val="&amp;lt;b&amp;gt;"/>
+                                                            </noteq>
+                                                            <noteq comment="true" id="1" x="0" y="0">
+                                                                <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                                <int id="1" val="&amp;lt;/b&amp;gt;"/>
+                                                            </noteq>
+                                                        </and>
+                                                    </and>
+                                                </if>
+                                                <if comment="true" x="70" y="2662">
+                                                    <group eventID="1" id="-1">
+                                                        <incdec comment="true" x="81" y="2697">
+                                                            <int id="0" val="7"/>
+                                                            <int id="1" val="0"/>
+                                                            <plus comment="true" id="2" x="0" y="0">
+                                                                <get-font-height2-new comment="true" id="0" x="0" y="0">
+                                                                    <font eid="26" id="0"/>
+                                                                </get-font-height2-new>
+                                                                <int id="1" val="5"/>
+                                                            </plus>
+                                                        </incdec>
+                                                        <set-val-22-14 comment="true" x="81" y="2742">
+                                                            <int id="0" val="0"/>
+                                                        </set-val-22-14>
+                                                    </group>
+                                                    <or comment="true" id="0" x="0" y="0">
+                                                        <more comment="true" id="0" x="0" y="0">
+                                                            <get-val-22-14 comment="true" id="0" x="0" y="0"/>
+                                                            <int id="1" val="400"/>
+                                                        </more>
+                                                        <eq comment="true" id="1" x="0" y="0">
+                                                            <for-each-item comment="true" id="0" x="0" y="0"/>
+                                                            <int id="1" val="&amp;lt;br&amp;gt;"/>
+                                                        </eq>
+                                                    </or>
+                                                </if>
+                                            </group>
+                                            <get-val-22-29 comment="true" id="0" x="0" y="0"/>
+                                        </for-each>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="3"/>
+                                    </eq>
+                                </else-if>
+                                <else-if comment="false" x="48" y="2798">
+                                    <group eventID="1" id="-1">
+                                        <set-font-new comment="false" x="59" y="2828">
+                                            <font eid="26" id="0"/>
+                                        </set-font-new>
+                                        <draw-text comment="false" x="59" y="2855">
+                                            <int id="0" val="There is no content here yet."/>
+                                            <plus comment="false" id="1" x="0" y="0">
+                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="0"/>
+                                                </get-xy>
+                                                <int id="1" val="380"/>
+                                            </plus>
+                                            <plus comment="false" id="2" x="0" y="0">
+                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                    <ACTOR eid="12" id="0"/>
+                                                    <int id="1" val="1"/>
+                                                </get-xy>
+                                                <int id="1" val="200"/>
+                                            </plus>
+                                        </draw-text>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="4"/>
+                                    </eq>
+                                </else-if>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </if>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-9 comment="false" id="1" x="0" y="0"/>
+                    </lesseq>
+                </if>
+                <else comment="false" x="26" y="2929">
+                    <group eventID="1" id="-1">
+                        <scene-change-color comment="false" x="37" y="2949">
+                            <scene eid="48" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                            <color b="0" g="0" id="3" r="0"/>
+                            <int id="4" val="0"/>
+                            <int id="5" val="1"/>
+                            <color b="0" g="0" id="6" r="0"/>
+                        </scene-change-color>
+                    </group>
+                </else>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="33" id="0">
+        <receiver-6-102 comment="false" x="15" y="15">
+            <group eventID="33" id="-1">
+                <set-game-val-5 comment="false" x="26" y="40">
+                    <int id="0" val="1"/>
+                </set-game-val-5>
+                <set-game-val-4 comment="false" x="26" y="60">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-4>
+                <set-game-val-6 comment="false" x="26" y="85">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-6>
+                <set-game-val-7 comment="false" x="26" y="110">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-7>
+                <set-game-val-13 comment="false" x="26" y="135">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-13>
+                <set-game-val-11 comment="false" x="26" y="160">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-11>
+                <set-game-val-10 comment="false" x="26" y="185">
+                    <int id="0" val="-1"/>
+                </set-game-val-10>
+                <set-game-val-63 comment="false" x="26" y="205">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-63>
+                <set-game-val-8 comment="false" x="26" y="230">
+                    <int id="0" val="0"/>
+                </set-game-val-8>
+                <set-game-val-55 comment="false" x="26" y="250">
+                    <int id="0" val="0"/>
+                </set-game-val-55>
+                <set-game-val-12 comment="false" x="26" y="270">
+                    <int id="0" val="0"/>
+                </set-game-val-12>
+            </group>
+        </receiver-6-102>
+    </group>
+    <group eventID="33" id="-1"/>
+    <group eventID="34" id="0">
+        <receiver-8-105 comment="false" x="15" y="15">
+            <group eventID="34" id="-1">
+                <return comment="false" x="26" y="45">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-byobval-22-105-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <plus comment="false" id="1" x="0" y="0">
+                            <get-wh comment="false" id="0" x="0" y="0">
+                                <get-byobval-22-105-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-wh>
+                            <int id="1" val="20"/>
+                        </plus>
+                    </plus>
+                </return>
+            </group>
+            <get-byobval-22-105-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-8-105>
+    </group>
+    <group eventID="34" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-19 comment="false" x="26" y="40">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="28" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-19>
+                <set-game-val-20 comment="false" x="26" y="73">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="28" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-20>
+                <set-game-val-21 comment="false" x="26" y="106">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="26" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-21>
+                <set-game-val-22 comment="false" x="26" y="139">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="26" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-22>
+                <set-game-val-3 comment="false" x="26" y="172">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="27" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-3>
+                <set-game-val-23 comment="false" x="26" y="205">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="27" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-23>
+                <set-game-val-24 comment="false" x="26" y="238">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="5" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-24>
+                <set-game-val-25 comment="false" x="26" y="271">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="5" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-25>
+                <set-game-val-26 comment="false" x="26" y="304">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="6" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-26>
+                <set-game-val-27 comment="false" x="26" y="337">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="6" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-27>
+                <set-game-val-28 comment="false" x="26" y="370">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="10" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-28>
+                <set-game-val-29 comment="false" x="26" y="403">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="10" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-29>
+                <set-game-val-30 comment="false" x="26" y="436">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="7" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-30>
+                <set-game-val-31 comment="false" x="26" y="469">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="7" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-31>
+                <set-game-val-32 comment="false" x="26" y="502">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="17" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-32>
+                <set-game-val-33 comment="false" x="26" y="535">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="17" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-33>
+                <set-game-val-34 comment="false" x="26" y="568">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="4" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-34>
+                <set-game-val-35 comment="false" x="26" y="601">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="4" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-35>
+                <set-game-val-36 comment="false" x="26" y="634">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-36>
+                <set-game-val-37 comment="false" x="26" y="667">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-37>
+                <set-game-val-38 comment="false" x="26" y="700">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="2" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-38>
+                <set-game-val-39 comment="false" x="26" y="733">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="2" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-39>
+                <set-game-val-40 comment="false" x="26" y="766">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="12" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-40>
+                <set-game-val-41 comment="false" x="26" y="799">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="12" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-41>
+                <custom-102 comment="false" x="26" y="832"/>
+                <set-game-val-0 comment="false" x="26" y="852">
+                    <int id="0" val="10"/>
+                </set-game-val-0>
+                <toggle-image comment="false" x="26" y="872">
+                    <ACTOR eid="17" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <toggle-image comment="false" x="26" y="899">
+                    <ACTOR eid="22" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <custom-107 comment="false" x="26" y="926">
+                    <ACTOR eid="19" id="0"/>
+                    <ACTOR eid="18" id="1"/>
+                </custom-107>
+                <custom-107 comment="false" x="26" y="953">
+                    <ACTOR eid="21" id="0"/>
+                    <ACTOR eid="18" id="1"/>
+                </custom-107>
+                <custom-107 comment="false" x="26" y="980">
+                    <ACTOR eid="20" id="0"/>
+                    <ACTOR eid="18" id="1"/>
+                </custom-107>
+                <custom-107 comment="false" x="26" y="1007">
+                    <ACTOR eid="22" id="0"/>
+                    <ACTOR eid="18" id="1"/>
+                </custom-107>
+                <set-val-22-38 comment="false" x="26" y="1034">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-22-38>
+                <set-val-22-39 comment="false" x="26" y="1059">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-22-39>
+                <set-val-22-40 comment="false" x="26" y="1084">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-22-40>
+                <set-game-val-0 comment="false" x="26" y="1109">
+                    <int id="0" val="10"/>
+                </set-game-val-0>
+                <set-game-val-1 comment="false" x="26" y="1129">
+                    <int id="0" val="0"/>
+                </set-game-val-1>
+                <set-game-val-2 comment="false" x="26" y="1149">
+                    <int id="0" val="25"/>
+                </set-game-val-2>
+                <set-val-22-14 comment="false" x="26" y="1169">
+                    <int id="0" val="0"/>
+                </set-val-22-14>
+                <set-val-22-7 comment="false" x="26" y="1189">
+                    <int id="0" val="0"/>
+                </set-val-22-7>
+                <set-val-22-28 comment="false" x="26" y="1209">
+                    <int id="0" val="There is no content here yet."/>
+                </set-val-22-28>
+                <set-val-22-6 comment="false" x="26" y="1229">
+                    <int id="0" val="&amp;lt;b&amp;gt; Anna &amp;lt;/b&amp;gt; &amp;lt;br&amp;gt; She&amp;apos;s my friend."/>
+                </set-val-22-6>
+                <set-val-22-24 comment="false" x="26" y="1249">
+                    <int id="0" val="normal"/>
+                </set-val-22-24>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="35" id="0">
+        <receiver-9-106 comment="false" x="15" y="15">
+            <group eventID="35" id="-1">
+                <return comment="false" x="26" y="45">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-byobval-22-106-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <plus comment="false" id="1" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <get-byobval-22-106-0 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </get-wh>
+                                <int id="1" val="2"/>
+                            </div>
+                            <get-byobval-22-106-1 comment="false" id="1" x="0" y="0"/>
+                        </plus>
+                    </plus>
+                </return>
+            </group>
+            <get-byobval-22-106-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-22-106-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-9-106>
+    </group>
+    <group eventID="35" id="-1"/>
+    <group eventID="36" id="0">
+        <receiver-10-107 comment="false" x="30" y="27">
+            <group eventID="36" id="-1">
+                <set-xy comment="false" x="41" y="57">
+                    <get-byobval-22-107-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <get-byobval-22-107-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-xy>
+                <set-xy comment="false" x="41" y="102">
+                    <get-byobval-22-107-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1"/>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <get-byobval-22-107-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-xy>
+            </group>
+            <get-byobval-22-107-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-22-107-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-10-107>
+    </group>
+    <group eventID="36" id="-1"/>
+    <group eventID="37" id="0">
+        <receiver-11-108 comment="false" x="20" y="24">
+            <group eventID="37" id="-1">
+                <set-xy comment="false" x="31" y="54">
+                    <get-byobval-22-108-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                    <get-byobval-22-108-1 comment="false" id="2" x="0" y="0"/>
+                </set-xy>
+                <set-xy comment="false" x="31" y="86">
+                    <get-byobval-22-108-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1"/>
+                    <get-byobval-22-108-2 comment="false" id="2" x="0" y="0"/>
+                </set-xy>
+            </group>
+            <get-byobval-22-108-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-22-108-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-22-108-2 comment="false" id="2" x="0" y="0"/>
+        </receiver-11-108>
+    </group>
+    <group eventID="37" id="-1"/>
+    <group eventID="13" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="13" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="13" id="-1">
+                        <set-game-val-5 comment="false" x="37" y="72">
+                            <int id="0" val="1"/>
+                        </set-game-val-5>
+                        <play-sound4 comment="false" x="37" y="92">
+                            <int id="0" val="0"/>
+                            <sound eid="158" id="1"/>
+                        </play-sound4>
+                        <set-game-val-4 comment="false" x="37" y="119">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <REGION eid="0" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="13" id="-1"/>
+    <group eventID="14" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="14" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="14" id="-1">
+                        <set-game-val-5 comment="false" x="37" y="72">
+                            <int id="0" val="2"/>
+                        </set-game-val-5>
+                        <play-sound4 comment="false" x="37" y="92">
+                            <int id="0" val="0"/>
+                            <sound eid="158" id="1"/>
+                        </play-sound4>
+                        <set-game-val-4 comment="false" x="37" y="119">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <REGION eid="1" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="14" id="-1"/>
+    <group eventID="15" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="15" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="15" id="-1">
+                        <play-sound4 comment="false" x="37" y="72">
+                            <int id="0" val="0"/>
+                            <sound eid="158" id="1"/>
+                        </play-sound4>
+                        <set-game-val-5 comment="false" x="37" y="99">
+                            <int id="0" val="3"/>
+                        </set-game-val-5>
+                        <set-game-val-4 comment="false" x="37" y="119">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <REGION eid="2" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="15" id="-1"/>
+    <group eventID="19" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="19" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="19" id="-1">
+                        <set-game-val-5 comment="false" x="37" y="72">
+                            <int id="0" val="4"/>
+                        </set-game-val-5>
+                        <set-game-val-4 comment="false" x="37" y="92">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                        <play-sound4 comment="false" x="37" y="117">
+                            <int id="0" val="0"/>
+                            <sound eid="158" id="1"/>
+                        </play-sound4>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <REGION eid="3" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="19" id="-1"/>
+    <group eventID="20" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="20" id="-1">
+                <set-val-22-38 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-22-38>
+            </group>
+            <REGION eid="4" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="20" id="-1"/>
+    <group eventID="21" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="21" id="-1">
+                <set-val-22-39 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-22-39>
+            </group>
+            <REGION eid="5" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="21" id="-1"/>
+    <group eventID="22" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="22" id="-1">
+                <set-val-22-40 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-22-40>
+            </group>
+            <REGION eid="6" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="22" id="-1"/>
+    <group eventID="23" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="23" id="-1">
+                <set-val-22-38 comment="false" x="26" y="42">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-22-38>
+            </group>
+            <REGION eid="4" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="23" id="-1"/>
+    <group eventID="24" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="24" id="-1">
+                <set-val-22-39 comment="false" x="26" y="42">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-22-39>
+            </group>
+            <REGION eid="5" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="24" id="-1"/>
+    <group eventID="25" id="0">
+        <event-mouse-enter-exit-region comment="false" x="14" y="14">
+            <group eventID="25" id="-1">
+                <set-val-22-40 comment="false" x="25" y="41">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-22-40>
+            </group>
+            <REGION eid="6" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="25" id="-1"/>
+    <group eventID="26" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="26" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="26" id="-1">
+                        <if comment="false" x="37" y="77">
+                            <group eventID="26" id="-1">
+                                <set-game-val-8 comment="false" x="48" y="107">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-game-val-8>
+                                <set-game-val-7 comment="false" x="48" y="137">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-7>
+                                <set-game-val-10 comment="false" x="48" y="162">
+                                    <int id="0" val="-1"/>
+                                </set-game-val-10>
+                                <set-game-val-12 comment="false" x="48" y="182">
+                                    <int id="0" val="null"/>
+                                </set-game-val-12>
+                                <play-sound4 comment="false" x="48" y="202">
+                                    <int id="0" val="0"/>
+                                    <sound eid="184" id="1"/>
+                                </play-sound4>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="C1"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="241">
+                            <group eventID="26" id="-1">
+                                <set-game-val-18 comment="false" x="48" y="261">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-18>
+                            </group>
+                        </else>
+                        <set-game-val-6 comment="false" x="37" y="298">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-6>
+                        <set-game-val-4 comment="false" x="37" y="323">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+            <REGION eid="4" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="26" id="-1"/>
+    <group eventID="27" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="27" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="27" id="-1">
+                        <if comment="false" x="37" y="77">
+                            <group eventID="27" id="-1">
+                                <set-game-val-8 comment="false" x="48" y="107">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-game-val-8>
+                                <set-game-val-7 comment="false" x="48" y="137">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-7>
+                                <set-game-val-10 comment="false" x="48" y="162">
+                                    <int id="0" val="-1"/>
+                                </set-game-val-10>
+                                <set-game-val-12 comment="false" x="48" y="182">
+                                    <int id="0" val="null"/>
+                                </set-game-val-12>
+                                <play-sound4 comment="false" x="48" y="202">
+                                    <int id="0" val="0"/>
+                                    <sound eid="184" id="1"/>
+                                </play-sound4>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="C3"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="241">
+                            <group eventID="27" id="-1">
+                                <set-game-val-18 comment="false" x="48" y="261">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-18>
+                            </group>
+                        </else>
+                        <set-game-val-6 comment="false" x="37" y="298">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-6>
+                        <set-game-val-4 comment="false" x="37" y="323">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+            <REGION eid="5" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="27" id="-1"/>
+    <group eventID="28" id="0">
+        <event-mouse-enter-exit-region comment="false" x="15" y="15">
+            <group eventID="28" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="28" id="-1">
+                        <if comment="false" x="37" y="77">
+                            <group eventID="28" id="-1">
+                                <set-game-val-8 comment="false" x="48" y="107">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-game-val-8>
+                                <set-game-val-7 comment="false" x="48" y="137">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-7>
+                                <set-game-val-10 comment="false" x="48" y="162">
+                                    <int id="0" val="-1"/>
+                                </set-game-val-10>
+                                <set-game-val-12 comment="false" x="48" y="182">
+                                    <int id="0" val="null"/>
+                                </set-game-val-12>
+                                <play-sound4 comment="false" x="48" y="202">
+                                    <int id="0" val="0"/>
+                                    <sound eid="184" id="1"/>
+                                </play-sound4>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="C2"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="241">
+                            <group eventID="28" id="-1">
+                                <set-game-val-18 comment="false" x="48" y="261">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-18>
+                            </group>
+                        </else>
+                        <set-game-val-6 comment="false" x="37" y="298">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-6>
+                        <set-game-val-4 comment="false" x="37" y="323">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+            <REGION eid="6" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-region>
+    </group>
+    <group eventID="28" id="-1"/>
+    <group eventID="31" id="0">
+        <receiver-3-96 comment="false" x="15" y="15">
+            <group eventID="31" id="-1">
+                <if comment="false" x="26" y="45">
+                    <group eventID="31" id="-1">
+                        <setanim comment="false" x="37" y="75">
+                            <get-byobval-22-96-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="107">
+                            <get-byobval-22-96-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content_plus"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="rigole"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="151">
+                    <group eventID="31" id="-1">
+                        <setanim comment="false" x="37" y="181">
+                            <get-byobval-22-96-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="surpris"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="213">
+                            <get-byobval-22-96-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="pas_content"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="gene"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="257">
+                    <group eventID="31" id="-1">
+                        <setanim comment="false" x="37" y="287">
+                            <get-byobval-22-96-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="319">
+                            <get-byobval-22-96-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="normal"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="363">
+                    <group eventID="31" id="-1">
+                        <setanim comment="false" x="37" y="393">
+                            <get-byobval-22-96-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="surpris"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="425">
+                            <get-byobval-22-96-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="surpris"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="surpris"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="469">
+                    <group eventID="31" id="-1">
+                        <setanim comment="false" x="37" y="499">
+                            <get-byobval-22-96-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="normal"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="531">
+                            <get-byobval-22-96-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="pas_content"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="colere"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="575">
+                    <group eventID="31" id="-1">
+                        <setanim comment="false" x="37" y="605">
+                            <get-byobval-22-96-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="637">
+                            <get-byobval-22-96-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="content"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="669">
+                            <get-byobval-22-96-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="revele"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="montre"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="713">
+                    <group eventID="31" id="-1">
+                        <toggle-image comment="false" x="37" y="743">
+                            <ACTOR eid="22" id="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="clean"/>
+                    </eq>
+                </else-if>
+            </group>
+            <get-byobval-22-96-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-22-96-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-22-96-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-22-96-3 comment="false" id="3" x="0" y="0"/>
+            <get-byobval-22-96-4 comment="false" id="4" x="0" y="0"/>
+            <get-byobval-22-96-5 comment="false" id="5" x="0" y="0"/>
+        </receiver-3-96>
+    </group>
+    <group eventID="31" id="-1"/>
+</groups>

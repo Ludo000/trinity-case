@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <toggle-image comment="false" x="37" y="65">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                    <get-game-val-46 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="104">
+                    <group eventID="1" id="-1">
+                        <toggle-image comment="false" x="37" y="124">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-image>
+                    </group>
+                </else>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-48 comment="false" x="26" y="42">
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-game-val-48 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </set-game-val-48>
+                <set-game-val-47 comment="false" x="26" y="72">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-47>
+                <set-game-val-54 comment="false" x="26" y="97">
+                    <int id="0" val="Case #7401"/>
+                </set-game-val-54>
+                <set-game-val-53 comment="false" x="26" y="117">
+                    <int id="0" val="Mr Eric Johnson"/>
+                </set-game-val-53>
+                <set-game-val-51 comment="false" x="26" y="137">
+                    <int id="0" val="20 years old &amp;lt;br&amp;gt; 1m80 &amp;lt;br&amp;gt; Technician at &amp;quot;Le Bonheur&amp;quot; &amp;lt;br&amp;gt; Suspect for the case #7401"/>
+                </set-game-val-51>
+                <set-game-val-52 comment="false" x="26" y="157">
+                    <int id="0" val="&amp;quot;I may have installed the cameras, but I didn&amp;apos;t killed her ! [...] &amp;lt;br&amp;gt; I only spoke to him on the phone, and guessing by noises and this crime severity, it had to be from a phone cab. &amp;lt;br&amp;gt; But he had a voice suprisingly soft for an adult, I think he also had some sort of bad habit. &amp;lt;br&amp;gt; I mean I often heard a licking noise when he ended his sentences, it wasn&amp;apos;t often enough to be noticeable though. &amp;lt;br&amp;gt;  He gave me money by dropping it directly into my mail box, I was never able to see him.&amp;quot;"/>
+                </set-game-val-52>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

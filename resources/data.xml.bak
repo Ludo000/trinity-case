@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <custom-block blocktag="custom-91" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="91" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-92" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="92" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-93" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="93" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-97" blocktype="ACTION" code="sayToScene(&quot;SceneEvents_3&quot;, &quot;_customBlock_&quot;);" desc="" global="false" gui="Missing" id="97" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-98" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="98" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-100" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="100" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-103" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="103" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-109" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_();" desc="" global="true" gui="Missing" id="109" message="" name="" oid="-1" return="void" shared="false" snippetID="22"/>
+    <custom-block blocktag="custom-132" blocktype="ACTION" code="scripts.SceneEvents_9._customBlock_(, , );" desc="" global="true" gui="Missing" id="132" message="" name="" oid="-1" return="void" shared="false" snippetID="47">
+        <blank name="Nom" order="0" type="text"/>
+        <blank name="descp_perso" order="1" type="list"/>
+        <blank name="desc_fiche" order="2" type="list"/>
+    </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="220" name="act1" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="212" name="act3" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="211" name="acte2" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="actor1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="1" name="actor1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="68" id="0" loop="true" name="show" numframes="1" originx="46" originy="34" sync="false" version="2" width="93">
+            <poly data="4,0,68,93,68,93,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="hide" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,32,32,32,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="35" fixedrot="true" fric="0.2" gid="3" id="70" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="anna_bouche" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="71" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="37" fixedrot="true" fric="0.2" gid="3" id="75" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="anna_joue" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="76" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="36" fixedrot="true" fric="0.2" gid="3" id="72" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="anna_tete" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="73" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="32" fixedrot="true" fric="0.2" gid="3" id="64" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="anna_tron" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="65" static="false">
+        <snippets/>
+    </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="3" name="back01" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="63" name="back1" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="88" fixedrot="true" fric="0.2" gid="3" id="201" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="barre_son" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="202" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="5" defaultAnimation="5" desc="" id="202" name="barre_son" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="129" id="0" loop="true" name="5" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="5" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="1" loop="true" name="6" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="6" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="2" loop="true" name="7" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="7" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="3" loop="true" name="8" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="8" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="4" loop="true" name="9" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="9" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="5" loop="true" name="10" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="10" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="6" loop="true" name="0" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="7" loop="true" name="1" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="8" loop="true" name="2" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="9" loop="true" name="3" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="129" id="10" loop="true" name="4" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="4" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="77" fixedrot="true" fric="0.2" gid="3" id="175" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="blanche" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="176" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="84" fixedrot="true" fric="0.2" gid="3" id="181" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bois" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="182" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="172" name="bombe2" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="173" name="bombe3" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="174" name="bombe4" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="55" fixedrot="true" fric="0.2" gid="3" id="126" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_11vicitmes_mirroir" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="127" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="61" fixedrot="true" fric="0.2" gid="3" id="148" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_collibris" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="149" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="56" fixedrot="true" fric="0.2" gid="3" id="128" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_johnson" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="129" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="85" fixedrot="true" fric="0.2" gid="3" id="193" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_menu" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="194" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="116" fixedrot="true" fric="0.2" gid="3" id="221" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_menu credit" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="222" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="93" fixedrot="true" fric="0.2" gid="3" id="207" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_menu START" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="208" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="87" fixedrot="true" fric="0.2" gid="3" id="196" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_menuquit" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="197" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="62" fixedrot="true" fric="0.2" gid="3" id="150" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bouton_rapport20ans" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="151" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.2" gid="3" id="10" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="button1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="normal"/>
+                <prop id="4" list="0" val="pressed"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="pressed"/>
+                <prop id="7" list="0" val="bad_cops"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="11" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="255" id="0" loop="true" name="normal" numframes="1" originx="16" originy="16" sync="false" version="2" width="208">
+            <poly data="4,0,291,240,291,240,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="1" loop="true" name="pressed" numframes="1" originx="16" originy="16" sync="false" version="2" width="240">
+            <poly data="4,0,291,240,291,240,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="13" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="253" id="0" loop="true" name="normal" numframes="1" originx="104" originy="126" sync="false" version="2" width="209">
+            <poly data="4,0,253,209,253,209,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="1" loop="true" name="pressed" numframes="1" originx="120" originy="145" sync="false" version="2" width="240">
+            <poly data="4,0,291,240,291,240,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="15" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="150" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="75" sync="false" version="2" width="100">
+            <poly data="4,0,150,100,150,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="28" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="30" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="58" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="60" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="62" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="113" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="115" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="117" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="127" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="150" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="75" sync="false" version="2" width="100">
+            <poly data="4,0,150,100,150,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="129" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="109" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="54" sync="false" version="2" width="100">
+            <poly data="4,0,109,100,109,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="149" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="103" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="51" sync="false" version="2" width="100">
+            <poly data="4,0,103,100,103,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="151" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="166" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="179" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="182" name="button1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="pressed" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pressed" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="9" fixedrot="true" fric="0.2" gid="3" id="12" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="button2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="normal"/>
+                <prop id="4" list="0" val="pressed"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="pressed"/>
+                <prop id="7" list="0" val="good_cops"/>
+            </s>
+        </snippets>
+    </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="145" name="cadavres" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="75" fixedrot="true" fric="0.2" gid="3" id="170" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="canini" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="171" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="carnet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="9" name="carnet" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="196" id="0" loop="true" name="close" numframes="1" originx="73" originy="98" sync="false" version="2" width="147">
+            <poly data="4,0,196,147,196,147,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="211" id="1" loop="true" name="open" numframes="1" originx="185" originy="105" sync="false" version="2" width="185">
+            <poly data="4,0,211,185,211,185,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="219" loop="true" name="caveofmadness" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="72" fixedrot="true" fric="0.2" gid="3" id="167" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="cesar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="168" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="48" fixedrot="true" fric="0.2" gid="3" id="110" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="collibris" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="111" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="108" fixedrot="true" fric="0.2" gid="3" id="213" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="collibris Copy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="214" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="10" fixedrot="true" fric="0.2" gid="3" id="14" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="contradiction" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="15" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="223" name="credit_" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <custom-block blocktag="custom-38" blocktype="ACTION" code=".say(&quot;ActorEvents_42&quot;, &quot;_customBlock_Damage&quot;, []);" desc="Subtracts a specific amount of health from the Actor." global="false" gui="Damage %0 By %1" id="38" message="Damage" name="Damage" oid="-1" return="void" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="74" name="devant_poste_police" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="160" loop="true" name="digicode" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="169" name="enigme_s3_a" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="218" loop="true" name="farethrrewell" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="54" fixedrot="true" fric="0.2" gid="3" id="124" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="fiche_11victime_mirroir" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="125" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="125" name="fiche_11victime_mirroir" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="800" id="0" loop="true" name="Animation 0" numframes="1" originx="266" originy="400" sync="false" version="2" width="532">
+            <poly data="4,0,800,532,800,532,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="3" id="6" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="fleche" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="7" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="7" name="fleche" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="78" id="0" loop="true" name="show" numframes="1" originx="87" originy="39" sync="false" version="2" width="174">
+            <poly data="4,0,78,174,78,174,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="hide" numframes="1" originx="16" originy="16" sync="false" version="2" width="32"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="11" fixedrot="true" fric="0.2" gid="3" id="17" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="fond_carnet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="18" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="18" name="fond_carnet" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1080" id="0" loop="true" name="Animation 0" numframes="1" originx="960" originy="540" sync="false" version="2" width="1920">
+            <poly data="4,0,1080,1920,1080,1920,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="3" id="4" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="fond_dialog" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="5" name="fond_dialog" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="254" id="0" loop="true" name="normal" numframes="1" originx="921" originy="127" sync="false" version="2" width="1842">
+            <poly data="4,0,254,1842,254,1842,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="1" loop="true" name="evennement" numframes="1" originx="921" originy="127" sync="false" version="2" width="1842">
+            <poly data="4,0,254,1842,254,1842,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="evennement" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="80" name="fond_dialog" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="200" id="0" loop="true" name="Animation 0" numframes="1" originx="320" originy="100" sync="false" version="2" width="641">
+            <poly data="4,0,200,641,200,641,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="194" name="fond_dialog" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="129" id="0" loop="true" name="Animation 0" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="197" name="fond_dialog" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="129" id="0" loop="true" name="Animation 0" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="208" name="fond_dialog" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="129" id="0" loop="true" name="Animation 0" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="222" name="fond_dialog" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="129" id="0" loop="true" name="Animation 0" numframes="1" originx="250" originy="64" sync="false" version="2" width="501">
+            <poly data="4,0,129,501,129,501,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="209" name="fond_menu" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="39" fixedrot="true" fric="0.2" gid="3" id="79" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="fond_QCM" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="80" static="false">
+        <snippets/>
+    </actor>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="132" id="2" name="font" offsets="0|0|0|,11|0|11,18|0|18,33|0|33,54|0|54,73|0|73,104|0|104,130|0|130,137|0|137,148|0|148,159|0|159,174|0|174,194|0|194,201|0|201,212|0|212,219|0|219,230|0|230,249|0|249,263|0|263,283|0|283,302|0|302,323|0|323,342|0|342,361|0|361,380|0|380,399|0|399,418|0|418,425|0|425,432|0|432,452|0|452,472|0|472,492|0|492,513|0|513,548|0|548,575|0|575,599|0|599,624|0|624,648|0|648,670|0|670,690|0|690,716|0|716,739|0|739,746|0|746,765|0|765,790|0|790,810|0|810,837|0|837,860|0|860,887|0|887,909|0|909,937|0|937,962|0|962,985|0|985,1008|0|1008,1031|0|1031,1056|0|1056,1091|0|1091,1116|0|1116,1141|0|1141,1164|0|1164,1175|0|1175,1186|0|1186,1197|0|1197,1215|0|1215,1238|0|1238,1248|0|1248,1267|0|1267,1287|0|1287,1307|0|1307,1327|0|1327,1346|0|1346,1360|0|1360,1380|0|1380,1399|0|1399,1406|0|1406,1417|0|1417,1436|0|1436,1443|0|1443,1472|0|1472,1491|0|1491,1512|0|1512,1532|0|1532,1552|0|1552,1566|0|1566,1586|0|1586,1599|0|1599,1618|0|1618,1639|0|1639,1668|0|1668,1689|0|1689,1710|0|1710,1729|0|1729,1743|0|1743,1748|0|1748,1762|0|1762,1782|0|1782,1803|0|1803,1804|0|1804,1805|0|1805,1806|0|1806,1807|0|1807,1808|0|1808,1809|0|1809,1810|0|1810,1811|0|1811,1812|0|1812,1813|0|1813,1814|0|1814,1815|0|1815,1816|0|1816,1817|0|1817,1818|0|1818,1819|0|1819,1820|0|1820,1821|0|1821,1822|0|1822,1823|0|1823,1824|0|1824,1825|0|1825,1826|0|1826,1827|0|1827,1828|0|1828,1829|0|1829,1830|0|1830,1831|0|1831,1832|0|1832,1833|0|1833,1834|0|1834,1835|0|1835,1846|0|1846,1853|0|1853,1873|0|1873,1894|0|1894,1915|0|1915,1936|0|1936,1941|0|1941,1960|0|1960,1973|0|1973,2002|0|2002,2016|0|2016,2034|0|2034,2054|0|2054,2065|0|2065,2094|0|2094,2117|0|2117,2130|0|2130,2150|0|2150,2163|0|2163,2176|0|2176,2186|0|2186,2204|0|2204,2225|0|2225,2232|0|2232,2244|0|2244,2253|0|2253,2267|0|2267,2286|0|2286,2316|0|2316,2346|0|2346,2377|0|2377,2398|0|2398,2425|0|2425,2452|0|2452,2479|0|2479,2506|0|2506,2533|0|2533,2560|0|2560,2598|0|2598,2623|0|2623,2645|0|2645,2667|0|2667,2689|0|2689,2711|0|2711,2721|0|2721,2731|0|2731,2745|0|2745,2758|0|2758,2784|0|2784,2807|0|2807,2834|0|2834,2861|0|2861,2888|0|2888,2915|0|2915,2942|0|2942,2961|0|2961,2988|0|2988,3011|0|3011,3034|0|3034,0|44|3057,23|44|3080,48|44|3105,70|44|3127,90|44|3147,109|44|3166,128|44|3185,147|44|3204,166|44|3223,185|44|3242,204|44|3261,235|44|3292,255|44|3312,274|44|3331,293|44|3350,312|44|3369,331|44|3388,341|44|3398,351|44|3408,365|44|3422,378|44|3435,399|44|3456,418|44|3475,439|44|3496,460|44|3517,481|44|3538,502|44|3559,523|44|3580,543|44|3600,564|44|3621,583|44|3640,602|44|3659,621|44|3678,640|44|3697,661|44|3718,681|44|3738,702|44|3759,729|44|3786,748|44|3805,775|44|3832,794|44|3851,822|44|3879,842|44|3899,867|44|3924,887|44|3944,912|44|3969,932|44|3989,957|44|4014,977|44|4034,1002|44|4059,1022|44|4079,1046|44|4103,1072|44|4129,1098|44|4155,1120|44|4177,1142|44|4199,1161|44|4218,1183|44|4240,1202|44|4259,1224|44|4281,1243|44|4300,1265|44|4322,1284|44|4341,1306|44|4363,1325|44|4382,1351|44|4408,1371|44|4428,1397|44|4454,1417|44|4474,1443|44|4500,1463|44|4520,1489|44|4546,1509|44|4566,1532|44|4589,1551|44|4608,1578|44|4635,1599|44|4656,1613|44|4670,1627|44|4684,1640|44|4697,1653|44|4710,1666|44|4723,1679|44|4736,1687|44|4744,1695|44|4752,1702|44|4759,1709|44|4766,1734|44|4791,1750|44|4807,1772|44|4829,1786|44|4843,1811|44|4868,1830|44|4887,1849|44|4906,1869|44|4926,1879|44|4936,1899|44|4956,1906|44|4963,1926|44|4983,1939|44|4996,1959|44|5016,1973|44|5030,1995|44|5052,2006|44|5063,2029|44|5086,2048|44|5105,2071|44|5128,2090|44|5147,2113|44|5170,2132|44|5189,2158|44|5215,2182|44|5239,2201|44|5258,2228|44|5285,2249|44|5306,2276|44|5333,2297|44|5354,2324|44|5381,2345|44|5402,2380|44|5437,2413|44|5470,2438|44|5495,2452|44|5509,2477|44|5534,2491|44|5548,2516|44|5573,2530|44|5587,2553|44|5610,2573|44|5630,2596|44|5653,2616|44|5673,2639|44|5696,2659|44|5716,2682|44|5739,2702|44|5759,2725|44|5782,2739|44|5796,2762|44|5819,2781|44|5838,2804|44|5861,2817|44|5874,2840|44|5897,2859|44|5916,2882|44|5939,2901|44|5958,2924|44|5981,2943|44|6000,2966|44|6023,2985|44|6042,3008|44|6065,0|88|6084,23|88|6107,43|88|6127,78|88|6162,107|88|6191,132|88|6216,153|88|6237,178|88|6262,201|88|6285,220|88|6304,243|88|6327,262|88|6346,285|88|6369,304|88|6388" oid="-1" prerendered="false" readable="false" rowHeight="44" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="60" id="200" name="font bouton menu" offsets="0|0|0|,8|0|8,13|0|13,24|0|24,39|0|39,53|0|53,74|0|74,91|0|91,96|0|96,104|0|104,112|0|112,122|0|122,135|0|135,140|0|140,148|0|148,153|0|153,161|0|161,174|0|174,184|0|184,198|0|198,212|0|212,226|0|226,239|0|239,252|0|252,265|0|265,278|0|278,292|0|292,297|0|297,302|0|302,315|0|315,328|0|328,341|0|341,355|0|355,380|0|380,399|0|399,416|0|416,433|0|433,450|0|450,465|0|465,479|0|479,497|0|497,513|0|513,519|0|519,532|0|532,550|0|550,564|0|564,583|0|583,599|0|599,617|0|617,632|0|632,651|0|651,669|0|669,685|0|685,701|0|701,717|0|717,734|0|734,758|0|758,775|0|775,792|0|792,808|0|808,816|0|816,824|0|824,832|0|832,845|0|845,861|0|861,868|0|868,882|0|882,896|0|896,909|0|909,923|0|923,937|0|937,947|0|947,961|0|961,974|0|974,979|0|979,987|0|987,1001|0|1001,1006|0|1006,1026|0|1026,1039|0|1039,1053|0|1053,1067|0|1067,1081|0|1081,1091|0|1091,1105|0|1105,1114|0|1114,1127|0|1127,1142|0|1142,1162|0|1162,1176|0|1176,1190|0|1190,1203|0|1203,1213|0|1213,1217|0|1217,1227|0|1227,1242|0|1242,1256|0|1256,1257|0|1257,1258|0|1258,1259|0|1259,1260|0|1260,1261|0|1261,1262|0|1262,1263|0|1263,1264|0|1264,1265|0|1265,1266|0|1266,1267|0|1267,1268|0|1268,1269|0|1269,1270|0|1270,1271|0|1271,1272|0|1272,1273|0|1273,1274|0|1274,1275|0|1275,1276|0|1276,1277|0|1277,1278|0|1278,1279|0|1279,1280|0|1280,1281|0|1281,1282|0|1282,1283|0|1283,1284|0|1284,1285|0|1285,1286|0|1286,1287|0|1287,1288|0|1288,1296|0|1296,1301|0|1301,1314|0|1314,1328|0|1328,1342|0|1342,1357|0|1357,1361|0|1361,1375|0|1375,1384|0|1384,1404|0|1404,1414|0|1414,1426|0|1426,1439|0|1439,1447|0|1447,1467|0|1467,1483|0|1483,1492|0|1492,1506|0|1506,1515|0|1515,1524|0|1524,1531|0|1531,1544|0|1544,1559|0|1559,1564|0|1564,1572|0|1572,1578|0|1578,1588|0|1588,1601|0|1601,1621|0|1621,1641|0|1641,1662|0|1662,1676|0|1676,1695|0|1695,1714|0|1714,1733|0|1733,1752|0|1752,1771|0|1771,1790|0|1790,1815|0|1815,1832|0|1832,1847|0|1847,1862|0|1862,1877|0|1877,1892|0|1892,1900|0|1900,1908|0|1908,1918|0|1918,1927|0|1927,1945|0|1945,1961|0|1961,1979|0|1979,1997|0|1997,2015|0|2015,2033|0|2033,2051|0|2051,2064|0|2064,2083|0|2083,2099|0|2099,2115|0|2115,2131|0|2131,2147|0|2147,2164|0|2164,2179|0|2179,2193|0|2193,2207|0|2207,2221|0|2221,2235|0|2235,2249|0|2249,2263|0|2263,2277|0|2277,2298|0|2298,2311|0|2311,2325|0|2325,2339|0|2339,2353|0|2353,2367|0|2367,2375|0|2375,2383|0|2383,2393|0|2393,2402|0|2402,2416|0|2416,2429|0|2429,2443|0|2443,2457|0|2457,2471|0|2471,2485|0|2485,2499|0|2499,2513|0|2513,2527|0|2527,2540|0|2540,2553|0|2553,2566|0|2566,2579|0|2579,2593|0|2593,2607|0|2607,2621|0|2621,2640|0|2640,2654|0|2654,2673|0|2673,2687|0|2687,2706|0|2706,2720|0|2720,2737|0|2737,2750|0|2750,2767|0|2767,2780|0|2780,2797|0|2797,2810|0|2810,2827|0|2827,2840|0|2840,2857|0|2857,2875|0|2875,2893|0|2893,2908|0|2908,2923|0|2923,2937|0|2937,2952|0|2952,2966|0|2966,2981|0|2981,2995|0|2995,3010|0|3010,3024|0|3024,3039|0|3039,3053|0|3053,3071|0|3071,3085|0|3085,3103|0|3103,3117|0|3117,0|30|3135,14|30|3149,32|30|3167,46|30|3181,62|30|3197,75|30|3210,94|30|3229,109|30|3244,119|30|3254,129|30|3264,138|30|3273,147|30|3282,156|30|3291,165|30|3300,172|30|3307,178|30|3313,184|30|3319,189|30|3324,205|30|3340,216|30|3351,231|30|3366,242|30|3377,260|30|3395,274|30|3409,288|30|3423,302|30|3437,310|30|3445,324|30|3459,330|30|3465,344|30|3479,354|30|3489,368|30|3503,379|30|3514,394|30|3529,402|30|3537,418|30|3553,431|30|3566,447|30|3582,460|30|3595,476|30|3611,489|30|3624,507|30|3642,524|30|3659,537|30|3672,555|30|3690,569|30|3704,587|30|3722,601|30|3736,619|30|3754,633|30|3768,658|30|3793,680|30|3815,698|30|3833,708|30|3843,726|30|3861,736|30|3871,754|30|3889,764|30|3899,780|30|3915,794|30|3929,810|30|3945,824|30|3959,840|30|3975,854|30|3989,870|30|4005,884|30|4019,900|30|4035,910|30|4045,926|30|4061,939|30|4074,955|30|4090,964|30|4099,980|30|4115,993|30|4128,1009|30|4144,1022|30|4157,1038|30|4173,1051|30|4186,1067|30|4202,1080|30|4215,1096|30|4231,1109|30|4244,1125|30|4260,1139|30|4274,1163|30|4298,1183|30|4318,1200|30|4335,1214|30|4349,1231|30|4366,1247|30|4382,1260|30|4395,1276|30|4411,1289|30|4424,1305|30|4440,1318|30|4453" oid="-1" prerendered="false" readable="false" rowHeight="30" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="42" id="26" name="font carnet" offsets="0|0|0|,5|0|5,9|0|9,15|0|15,25|0|25,35|0|35,49|0|49,61|0|61,65|0|65,70|0|70,75|0|75,82|0|82,92|0|92,95|0|95,101|0|101,105|0|105,111|0|111,121|0|121,127|0|127,137|0|137,147|0|147,157|0|157,167|0|167,177|0|177,187|0|187,197|0|197,207|0|207,210|0|210,213|0|213,223|0|223,233|0|233,243|0|243,253|0|253,270|0|270,282|0|282,292|0|292,304|0|304,315|0|315,325|0|325,334|0|334,347|0|347,358|0|358,361|0|361,369|0|369,380|0|380,389|0|389,402|0|402,413|0|413,426|0|426,436|0|436,449|0|449,461|0|461,472|0|472,483|0|483,494|0|494,506|0|506,522|0|522,534|0|534,546|0|546,557|0|557,562|0|562,568|0|568,573|0|573,582|0|582,594|0|594,599|0|599,609|0|609,618|0|618,627|0|627,636|0|636,646|0|646,652|0|652,661|0|661,669|0|669,672|0|672,677|0|677,685|0|685,688|0|688,701|0|701,709|0|709,719|0|719,728|0|728,737|0|737,743|0|743,752|0|752,758|0|758,766|0|766,775|0|775,788|0|788,797|0|797,806|0|806,815|0|815,821|0|821,824|0|824,830|0|830,840|0|840,849|0|849,858|0|858,867|0|867,872|0|872,881|0|881,888|0|888,897|0|897,905|0|905,913|0|913,920|0|920,929|0|929,938|0|938,943|0|943,952|0|952,961|0|961,970|0|970,979|0|979,988|0|988,992|0|992,996|0|996,1004|0|1004,1012|0|1012,1021|0|1021,1027|0|1027,1036|0|1036,1043|0|1043,1052|0|1052,1059|0|1059,1064|0|1064,1073|0|1073,1082|0|1082,1091|0|1091,1100|0|1100,1105|0|1105,1109|0|1109,1119|0|1119,1129|0|1129,1139|0|1139,1149|0|1149,1152|0|1152,1162|0|1162,1168|0|1168,1181|0|1181,1188|0|1188,1196|0|1196,1206|0|1206,1212|0|1212,1225|0|1225,1237|0|1237,1243|0|1243,1253|0|1253,1260|0|1260,1266|0|1266,1271|0|1271,1279|0|1279,1289|0|1289,1293|0|1293,1299|0|1299,1304|0|1304,1311|0|1311,1319|0|1319,1334|0|1334,1349|0|1349,1364|0|1364,1373|0|1373,1385|0|1385,1397|0|1397,1409|0|1409,1421|0|1421,1433|0|1433,1445|0|1445,1462|0|1462,1474|0|1474,1484|0|1484,1494|0|1494,1504|0|1504,1514|0|1514,1519|0|1519,1524|0|1524,1531|0|1531,1537|0|1537,1549|0|1549,1560|0|1560,1573|0|1573,1586|0|1586,1599|0|1599,1612|0|1612,1625|0|1625,1634|0|1634,1647|0|1647,1658|0|1658,1669|0|1669,1680|0|1680,1691|0|1691,1703|0|1703,1713|0|1713,1723|0|1723,1733|0|1733,1743|0|1743,1753|0|1753,1763|0|1763,1773|0|1773,1783|0|1783,1798|0|1798,1807|0|1807,1817|0|1817,1827|0|1827,1837|0|1837,1847|0|1847,1852|0|1852,1857|0|1857,1864|0|1864,1870|0|1870,1880|0|1880,1888|0|1888,1898|0|1898,1908|0|1908,1918|0|1918,1928|0|1928,1938|0|1938,1948|0|1948,1957|0|1957,1965|0|1965,1973|0|1973,1981|0|1981,1989|0|1989,1998|0|1998,2007|0|2007,2016|0|2016,2028|0|2028,2038|0|2038,2050|0|2050,2060|0|2060,2073|0|2073,2084|0|2084,2096|0|2096,2105|0|2105,2117|0|2117,2126|0|2126,2138|0|2138,2147|0|2147,2159|0|2159,2168|0|2168,2179|0|2179,2190|0|2190,2202|0|2202,2212|0|2212,2222|0|2222,2232|0|2232,2242|0|2242,2252|0|2252,2262|0|2262,2272|0|2272,2283|0|2283,2293|0|2293,2303|0|2303,2313|0|2313,2326|0|2326,2335|0|2335,2348|0|2348,2357|0|2357,2370|0|2370,2379|0|2379,2392|0|2392,2401|0|2401,2412|0|2412,2420|0|2420,2433|0|2433,2442|0|2442,2449|0|2449,2456|0|2456,2463|0|2463,2470|0|2470,2476|0|2476,2482|0|2482,2487|0|2487,2492|0|2492,2495|0|2495,2498|0|2498,2509|0|2509,2516|0|2516,2527|0|2527,2534|0|2534,2545|0|2545,2553|0|2553,2561|0|2561,2570|0|2570,2575|0|2575,2584|0|2584,2588|0|2588,2597|0|2597,2602|0|2602,2611|0|2611,2617|0|2617,2627|0|2627,2632|0|2632,2643|0|2643,2651|0|2651,2662|0|2662,2670|0|2670,2681|0|2681,2689|0|2689,2699|0|2699,2710|0|2710,2718|0|2718,2731|0|2731,2741|0|2741,2754|0|2754,2764|0|2764,2777|0|2777,2787|0|2787,2803|0|2803,2819|0|2819,2831|0|2831,2837|0|2837,2849|0|2849,2856|0|2856,2868|0|2868,2875|0|2875,2886|0|2886,2895|0|2895,2906|0|2906,2915|0|2915,2926|0|2926,2935|0|2935,2946|0|2946,2955|0|2955,2966|0|2966,2972|0|2972,2983|0|2983,2990|0|2990,3001|0|3001,3007|0|3007,3018|0|3018,3026|0|3026,3037|0|3037,3045|0|3045,3056|0|3056,3064|0|3064,3075|0|3075,3083|0|3083,3094|0|3094,3102|0|3102,3113|0|3113,3122|0|3122,3138|0|3138,3151|0|3151,3163|0|3163,3172|0|3172,3184|0|3184,3195|0|3195,3204|0|3204,3215|0|3215,0|21|3224,11|21|3235,20|21|3244" oid="-1" prerendered="false" readable="false" rowHeight="21" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="42" id="44" name="font carnet bold" offsets="0|0|0|,5|0|5,9|0|9,17|0|17,27|0|27,37|0|37,52|0|52,65|0|65,70|0|70,76|0|76,82|0|82,89|0|89,99|0|99,104|0|104,111|0|111,115|0|115,121|0|121,131|0|131,138|0|138,148|0|148,158|0|158,168|0|168,178|0|178,188|0|188,198|0|198,208|0|208,218|0|218,222|0|222,226|0|226,236|0|236,246|0|246,256|0|256,266|0|266,283|0|283,296|0|296,307|0|307,319|0|319,330|0|330,340|0|340,349|0|349,362|0|362,373|0|373,377|0|377,386|0|386,398|0|398,408|0|408,421|0|421,432|0|432,445|0|445,455|0|455,469|0|469,481|0|481,492|0|492,503|0|503,514|0|514,526|0|526,543|0|543,555|0|555,567|0|567,578|0|578,583|0|583,589|0|589,595|0|595,605|0|605,616|0|616,621|0|621,631|0|631,641|0|641,651|0|651,661|0|661,671|0|671,678|0|678,688|0|688,697|0|697,701|0|701,707|0|707,716|0|716,720|0|720,734|0|734,743|0|743,754|0|754,764|0|764,774|0|774,781|0|781,791|0|791,798|0|798,807|0|807,817|0|817,831|0|831,841|0|841,851|0|851,860|0|860,867|0|867,871|0|871,878|0|878,888|0|888,890|0|890,892|0|892,894|0|894,899|0|899,909|0|909,916|0|916,931|0|931,940|0|940,949|0|949,957|0|957,972|0|972,982|0|982,988|0|988,1005|0|1005,1007|0|1007,1009|0|1009,1011|0|1011,1013|0|1013,1018|0|1018,1023|0|1023,1032|0|1032,1041|0|1041,1043|0|1043,1050|0|1050,1067|0|1067,1074|0|1074,1091|0|1091,1099|0|1099,1105|0|1105,1116|0|1116,1118|0|1118,1120|0|1120,1133|0|1133,1138|0|1138,1142|0|1142,1152|0|1152,1162|0|1162,1172|0|1172,1182|0|1182,1186|0|1186,1196|0|1196,1203|0|1203,1217|0|1217,1224|0|1224,1233|0|1233,1243|0|1243,1250|0|1250,1264|0|1264,1275|0|1275,1282|0|1282,1292|0|1292,1298|0|1298,1304|0|1304,1309|0|1309,1319|0|1319,1329|0|1329,1333|0|1333,1339|0|1339,1344|0|1344,1351|0|1351,1361|0|1361,1376|0|1376,1390|0|1390,1405|0|1405,1415|0|1415,1428|0|1428,1441|0|1441,1454|0|1454,1467|0|1467,1480|0|1480,1493|0|1493,1511|0|1511,1523|0|1523,1533|0|1533,1543|0|1543,1553|0|1553,1563|0|1563,1568|0|1568,1574|0|1574,1581|0|1581,1588|0|1588,1600|0|1600,1611|0|1611,1624|0|1624,1637|0|1637,1650|0|1650,1663|0|1663,1676|0|1676,1685|0|1685,1698|0|1698,1709|0|1709,1720|0|1720,1731|0|1731,1742|0|1742,1754|0|1754,1764|0|1764,1774|0|1774,1784|0|1784,1794|0|1794,1804|0|1804,1814|0|1814,1824|0|1824,1834|0|1834,1849|0|1849,1859|0|1859,1869|0|1869,1879|0|1879,1889|0|1889,1899|0|1899,1904|0|1904,1910|0|1910,1917|0|1917,1924|0|1924,1935|0|1935,1944|0|1944,1955|0|1955,1966|0|1966,1977|0|1977,1988|0|1988,1999|0|1999,2009|0|2009,2020|0|2020,2029|0|2029,2038|0|2038,2047|0|2047,2056|0|2056,2066|0|2066,2076|0|2076,2086|0|2086,2099|0|2099,2109|0|2109,2122|0|2122,2132|0|2132,2145|0|2145,2155|0|2155,2167|0|2167,2177|0|2177,2189|0|2189,2199|0|2199,2211|0|2211,2221|0|2221,2233|0|2233,2243|0|2243,2254|0|2254,2267|0|2267,2279|0|2279,2290|0|2290,2300|0|2300,2310|0|2310,2320|0|2320,2330|0|2330,2340|0|2340,2350|0|2350,2361|0|2361,2371|0|2371,2381|0|2381,2391|0|2391,2404|0|2404,2414|0|2414,2427|0|2427,2437|0|2437,2450|0|2450,2460|0|2460,2473|0|2473,2483|0|2483,2494|0|2494,2503|0|2503,2516|0|2516,2526|0|2526,2534|0|2534,2542|0|2542,2549|0|2549,2556|0|2556,2563|0|2563,2570|0|2570,2575|0|2575,2580|0|2580,2585|0|2585,2589|0|2589,2601|0|2601,2610|0|2610,2620|0|2620,2627|0|2627,2639|0|2639,2648|0|2648,2657|0|2657,2667|0|2667,2673|0|2673,2683|0|2683,2687|0|2687,2697|0|2697,2704|0|2704,2714|0|2714,2721|0|2721,2732|0|2732,2738|0|2738,2749|0|2749,2758|0|2758,2769|0|2769,2778|0|2778,2789|0|2789,2798|0|2798,2810|0|2810,2821|0|2821,2830|0|2830,2843|0|2843,2854|0|2854,2867|0|2867,2878|0|2878,2891|0|2891,2902|0|2902,2919|0|2919,2935|0|2935,2947|0|2947,2954|0|2954,2966|0|2966,2973|0|2973,2985|0|2985,2992|0|2992,3003|0|3003,3013|0|3013,3024|0|3024,3034|0|3034,3045|0|3045,3055|0|3055,3066|0|3066,3076|0|3076,3087|0|3087,3094|0|3094,3105|0|3105,3114|0|3114,3125|0|3125,3131|0|3131,3142|0|3142,3151|0|3151,3162|0|3162,3171|0|3171,3182|0|3182,3191|0|3191,3202|0|3202,0|21|3211,11|21|3222,20|21|3231,31|21|3242,41|21|3252,58|21|3269,72|21|3283,84|21|3295,94|21|3305,106|21|3317,117|21|3328,126|21|3337,137|21|3348,146|21|3357,157|21|3368,166|21|3377" oid="-1" prerendered="false" readable="false" rowHeight="21" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="60" id="25" name="font carnet titre" offsets="0|0|0|,8|0|8,13|0|13,24|0|24,39|0|39,53|0|53,74|0|74,91|0|91,96|0|96,104|0|104,112|0|112,122|0|122,135|0|135,140|0|140,148|0|148,153|0|153,161|0|161,174|0|174,184|0|184,198|0|198,212|0|212,226|0|226,239|0|239,252|0|252,265|0|265,278|0|278,292|0|292,297|0|297,302|0|302,315|0|315,328|0|328,341|0|341,355|0|355,380|0|380,399|0|399,416|0|416,433|0|433,450|0|450,465|0|465,479|0|479,497|0|497,513|0|513,519|0|519,532|0|532,550|0|550,564|0|564,583|0|583,599|0|599,617|0|617,632|0|632,651|0|651,669|0|669,685|0|685,701|0|701,717|0|717,734|0|734,758|0|758,775|0|775,792|0|792,808|0|808,816|0|816,824|0|824,832|0|832,845|0|845,861|0|861,868|0|868,882|0|882,896|0|896,909|0|909,923|0|923,937|0|937,947|0|947,961|0|961,974|0|974,979|0|979,987|0|987,1001|0|1001,1006|0|1006,1026|0|1026,1039|0|1039,1053|0|1053,1067|0|1067,1081|0|1081,1091|0|1091,1105|0|1105,1114|0|1114,1127|0|1127,1142|0|1142,1162|0|1162,1176|0|1176,1190|0|1190,1203|0|1203,1213|0|1213,1217|0|1217,1227|0|1227,1242|0|1242,1244|0|1244,1246|0|1246,1248|0|1248,1254|0|1254,1268|0|1268,1278|0|1278,1299|0|1299,1310|0|1310,1321|0|1321,1331|0|1331,1352|0|1352,1365|0|1365,1372|0|1372,1397|0|1397,1399|0|1399,1401|0|1401,1403|0|1403,1405|0|1405,1411|0|1411,1417|0|1417,1429|0|1429,1441|0|1441,1443|0|1443,1453|0|1453,1477|0|1477,1487|0|1487,1511|0|1511,1521|0|1521,1529|0|1529,1545|0|1545,1547|0|1547,1549|0|1549,1568|0|1568,1576|0|1576,1581|0|1581,1594|0|1594,1608|0|1608,1622|0|1622,1637|0|1637,1641|0|1641,1655|0|1655,1664|0|1664,1684|0|1684,1694|0|1694,1706|0|1706,1719|0|1719,1727|0|1727,1747|0|1747,1763|0|1763,1772|0|1772,1786|0|1786,1795|0|1795,1804|0|1804,1811|0|1811,1824|0|1824,1839|0|1839,1844|0|1844,1852|0|1852,1858|0|1858,1868|0|1868,1881|0|1881,1901|0|1901,1921|0|1921,1942|0|1942,1956|0|1956,1975|0|1975,1994|0|1994,2013|0|2013,2032|0|2032,2051|0|2051,2070|0|2070,2095|0|2095,2112|0|2112,2127|0|2127,2142|0|2142,2157|0|2157,2172|0|2172,2180|0|2180,2188|0|2188,2198|0|2198,2207|0|2207,2225|0|2225,2241|0|2241,2259|0|2259,2277|0|2277,2295|0|2295,2313|0|2313,2331|0|2331,2344|0|2344,2363|0|2363,2379|0|2379,2395|0|2395,2411|0|2411,2427|0|2427,2444|0|2444,2459|0|2459,2473|0|2473,2487|0|2487,2501|0|2501,2515|0|2515,2529|0|2529,2543|0|2543,2557|0|2557,2578|0|2578,2591|0|2591,2605|0|2605,2619|0|2619,2633|0|2633,2647|0|2647,2655|0|2655,2663|0|2663,2673|0|2673,2682|0|2682,2696|0|2696,2709|0|2709,2723|0|2723,2737|0|2737,2751|0|2751,2765|0|2765,2779|0|2779,2793|0|2793,2807|0|2807,2820|0|2820,2833|0|2833,2846|0|2846,2859|0|2859,2873|0|2873,2887|0|2887,2901|0|2901,2920|0|2920,2934|0|2934,2953|0|2953,2967|0|2967,2986|0|2986,3000|0|3000,3017|0|3017,3030|0|3030,3047|0|3047,3060|0|3060,3077|0|3077,3090|0|3090,0|30|3107,13|30|3120,30|30|3137,48|30|3155,66|30|3173,81|30|3188,96|30|3203,110|30|3217,125|30|3232,139|30|3246,154|30|3261,168|30|3275,183|30|3290,197|30|3304,212|30|3319,226|30|3333,244|30|3351,258|30|3365,276|30|3383,290|30|3397,308|30|3415,322|30|3429,340|30|3447,354|30|3461,370|30|3477,383|30|3490,402|30|3509,417|30|3524,427|30|3534,437|30|3544,446|30|3553,455|30|3562,464|30|3571,473|30|3580,480|30|3587,486|30|3593,492|30|3599,497|30|3604,513|30|3620,524|30|3631,539|30|3646,550|30|3657,568|30|3675,582|30|3689,596|30|3703,610|30|3717,618|30|3725,632|30|3739,638|30|3745,652|30|3759,662|30|3769,676|30|3783,687|30|3794,702|30|3809,710|30|3817,726|30|3833,739|30|3846,755|30|3862,768|30|3875,784|30|3891,797|30|3904,815|30|3922,832|30|3939,845|30|3952,863|30|3970,877|30|3984,895|30|4002,909|30|4016,927|30|4034,941|30|4048,966|30|4073,988|30|4095,1006|30|4113,1016|30|4123,1034|30|4141,1044|30|4151,1062|30|4169,1072|30|4179,1088|30|4195,1102|30|4209,1118|30|4225,1132|30|4239,1148|30|4255,1162|30|4269,1178|30|4285,1192|30|4299,1208|30|4315,1218|30|4325,1234|30|4341,1247|30|4354,1263|30|4370,1272|30|4379,1288|30|4395,1301|30|4408,1317|30|4424,1330|30|4437,1346|30|4453,1359|30|4466,1375|30|4482,1388|30|4495,1404|30|4511,1417|30|4524,1433|30|4540,1447|30|4554,1471|30|4578,1491|30|4598,1508|30|4615,1522|30|4629,1539|30|4646,1555|30|4662,1568|30|4675,1584|30|4691,1597|30|4704,1613|30|4720,1626|30|4733" oid="-1" prerendered="false" readable="false" rowHeight="30" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="60" id="16" name="font green" offsets="0|0|0|,8|0|8,13|0|13,24|0|24,39|0|39,53|0|53,74|0|74,91|0|91,96|0|96,104|0|104,112|0|112,122|0|122,135|0|135,140|0|140,148|0|148,153|0|153,161|0|161,174|0|174,184|0|184,198|0|198,212|0|212,226|0|226,239|0|239,252|0|252,265|0|265,278|0|278,292|0|292,297|0|297,302|0|302,315|0|315,328|0|328,341|0|341,355|0|355,380|0|380,399|0|399,416|0|416,433|0|433,450|0|450,465|0|465,479|0|479,497|0|497,513|0|513,519|0|519,532|0|532,550|0|550,564|0|564,583|0|583,599|0|599,617|0|617,632|0|632,651|0|651,669|0|669,685|0|685,701|0|701,717|0|717,734|0|734,758|0|758,775|0|775,792|0|792,808|0|808,816|0|816,824|0|824,832|0|832,845|0|845,861|0|861,868|0|868,882|0|882,896|0|896,909|0|909,923|0|923,937|0|937,947|0|947,961|0|961,974|0|974,979|0|979,987|0|987,1001|0|1001,1006|0|1006,1026|0|1026,1039|0|1039,1053|0|1053,1067|0|1067,1081|0|1081,1091|0|1091,1105|0|1105,1114|0|1114,1127|0|1127,1142|0|1142,1162|0|1162,1176|0|1176,1190|0|1190,1203|0|1203,1213|0|1213,1217|0|1217,1227|0|1227,1242|0|1242,1244|0|1244,1246|0|1246,1248|0|1248,1254|0|1254,1268|0|1268,1278|0|1278,1299|0|1299,1310|0|1310,1321|0|1321,1331|0|1331,1352|0|1352,1365|0|1365,1372|0|1372,1397|0|1397,1399|0|1399,1401|0|1401,1403|0|1403,1405|0|1405,1411|0|1411,1417|0|1417,1429|0|1429,1441|0|1441,1443|0|1443,1453|0|1453,1477|0|1477,1487|0|1487,1511|0|1511,1521|0|1521,1529|0|1529,1545|0|1545,1547|0|1547,1549|0|1549,1568|0|1568,1576|0|1576,1581|0|1581,1594|0|1594,1608|0|1608,1622|0|1622,1637|0|1637,1641|0|1641,1655|0|1655,1664|0|1664,1684|0|1684,1694|0|1694,1706|0|1706,1719|0|1719,1727|0|1727,1747|0|1747,1763|0|1763,1772|0|1772,1786|0|1786,1795|0|1795,1804|0|1804,1811|0|1811,1824|0|1824,1839|0|1839,1844|0|1844,1852|0|1852,1858|0|1858,1868|0|1868,1881|0|1881,1901|0|1901,1921|0|1921,1942|0|1942,1956|0|1956,1975|0|1975,1994|0|1994,2013|0|2013,2032|0|2032,2051|0|2051,2070|0|2070,2095|0|2095,2112|0|2112,2127|0|2127,2142|0|2142,2157|0|2157,2172|0|2172,2180|0|2180,2188|0|2188,2198|0|2198,2207|0|2207,2225|0|2225,2241|0|2241,2259|0|2259,2277|0|2277,2295|0|2295,2313|0|2313,2331|0|2331,2344|0|2344,2363|0|2363,2379|0|2379,2395|0|2395,2411|0|2411,2427|0|2427,2444|0|2444,2459|0|2459,2473|0|2473,2487|0|2487,2501|0|2501,2515|0|2515,2529|0|2529,2543|0|2543,2557|0|2557,2578|0|2578,2591|0|2591,2605|0|2605,2619|0|2619,2633|0|2633,2647|0|2647,2655|0|2655,2663|0|2663,2673|0|2673,2682|0|2682,2696|0|2696,2709|0|2709,2723|0|2723,2737|0|2737,2751|0|2751,2765|0|2765,2779|0|2779,2793|0|2793,2807|0|2807,2820|0|2820,2833|0|2833,2846|0|2846,2859|0|2859,2873|0|2873,2887|0|2887,2901|0|2901,2920|0|2920,2934|0|2934,2953|0|2953,2967|0|2967,2986|0|2986,3000|0|3000,3017|0|3017,3030|0|3030,3047|0|3047,3060|0|3060,3077|0|3077,3090|0|3090,0|30|3107,13|30|3120,30|30|3137,48|30|3155,66|30|3173,81|30|3188,96|30|3203,110|30|3217,125|30|3232,139|30|3246,154|30|3261,168|30|3275,183|30|3290,197|30|3304,212|30|3319,226|30|3333,244|30|3351,258|30|3365,276|30|3383,290|30|3397,308|30|3415,322|30|3429,340|30|3447,354|30|3461,370|30|3477,383|30|3490,402|30|3509,417|30|3524,427|30|3534,437|30|3544,446|30|3553,455|30|3562,464|30|3571,473|30|3580,480|30|3587,486|30|3593,492|30|3599,497|30|3604,513|30|3620,524|30|3631,539|30|3646,550|30|3657,568|30|3675,582|30|3689,596|30|3703,610|30|3717,618|30|3725,632|30|3739,638|30|3745,652|30|3759,662|30|3769,676|30|3783,687|30|3794,702|30|3809,710|30|3817,726|30|3833,739|30|3846,755|30|3862,768|30|3875,784|30|3891,797|30|3904,815|30|3922,832|30|3939,845|30|3952,863|30|3970,877|30|3984,895|30|4002,909|30|4016,927|30|4034,941|30|4048,966|30|4073,988|30|4095,1006|30|4113,1016|30|4123,1034|30|4141,1044|30|4151,1062|30|4169,1072|30|4179,1088|30|4195,1102|30|4209,1118|30|4225,1132|30|4239,1148|30|4255,1162|30|4269,1178|30|4285,1192|30|4299,1208|30|4315,1218|30|4325,1234|30|4341,1247|30|4354,1263|30|4370,1272|30|4379,1288|30|4395,1301|30|4408,1317|30|4424,1330|30|4437,1346|30|4453,1359|30|4466,1375|30|4482,1388|30|4495,1404|30|4511,1417|30|4524,1433|30|4540,1447|30|4554,1471|30|4578,1491|30|4598,1508|30|4615,1522|30|4629,1539|30|4646,1555|30|4662,1568|30|4675,1584|30|4691,1597|30|4704,1613|30|4720,1626|30|4733" oid="-1" prerendered="false" readable="false" rowHeight="30" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="129" id="31" name="font himself" offsets="0|0|0|,11|0|11,16|0|16,28|0|28,49|0|49,68|0|68,97|0|97,121|0|121,127|0|127,137|0|137,147|0|147,160|0|160,178|0|178,183|0|183,194|0|194,199|0|199,210|0|210,229|0|229,241|0|241,260|0|260,279|0|279,299|0|299,318|0|318,337|0|337,356|0|356,375|0|375,394|0|394,399|0|399,404|0|404,422|0|422,440|0|440,458|0|458,477|0|477,512|0|512,538|0|538,560|0|560,585|0|585,609|0|609,631|0|631,650|0|650,676|0|676,699|0|699,704|0|704,720|0|720,743|0|743,761|0|761,788|0|788,810|0|810,837|0|837,859|0|859,886|0|886,911|0|911,934|0|934,957|0|957,980|0|980,1005|0|1005,1040|0|1040,1065|0|1065,1090|0|1090,1113|0|1113,1122|0|1122,1133|0|1133,1142|0|1142,1158|0|1158,1181|0|1181,1190|0|1190,1209|0|1209,1227|0|1227,1245|0|1245,1263|0|1263,1282|0|1282,1295|0|1295,1313|0|1313,1330|0|1330,1335|0|1335,1344|0|1344,1361|0|1361,1366|0|1366,1393|0|1393,1410|0|1410,1429|0|1429,1447|0|1447,1465|0|1465,1477|0|1477,1494|0|1494,1505|0|1505,1522|0|1522,1541|0|1541,1568|0|1568,1587|0|1587,1606|0|1606,1625|0|1625,1637|0|1637,1642|0|1642,1654|0|1654,1674|0|1674,1693|0|1693,1712|0|1712,1731|0|1731,1738|0|1738,1757|0|1757,1770|0|1770,1789|0|1789,1803|0|1803,1817|0|1817,1830|0|1830,1849|0|1849,1866|0|1866,1875|0|1875,1894|0|1894,1913|0|1913,1932|0|1932,1951|0|1951,1970|0|1970,1976|0|1976,1982|0|1982,1996|0|1996,2010|0|2010,2029|0|2029,2042|0|2042,2060|0|2060,2071|0|2071,2090|0|2090,2103|0|2103,2112|0|2112,2131|0|2131,2150|0|2150,2169|0|2169,2188|0|2188,2199|0|2199,2204|0|2204,2223|0|2223,2243|0|2243,2262|0|2262,2283|0|2283,2288|0|2288,2307|0|2307,2318|0|2318,2346|0|2346,2360|0|2360,2377|0|2377,2395|0|2395,2406|0|2406,2434|0|2434,2457|0|2457,2468|0|2468,2487|0|2487,2500|0|2500,2513|0|2513,2522|0|2522,2539|0|2539,2560|0|2560,2565|0|2565,2575|0|2575,2584|0|2584,2598|0|2598,2615|0|2615,2645|0|2645,2675|0|2675,2706|0|2706,2725|0|2725,2751|0|2751,2777|0|2777,2803|0|2803,2829|0|2829,2855|0|2855,2881|0|2881,2916|0|2916,2941|0|2941,2963|0|2963,2985|0|2985,3007|0|3007,3029|0|3029,3037|0|3037,0|43|3045,13|43|3058,25|43|3070,51|43|3096,73|43|3118,100|43|3145,127|43|3172,154|43|3199,181|43|3226,208|43|3253,225|43|3270,252|43|3297,275|43|3320,298|43|3343,321|43|3366,344|43|3389,369|43|3414,391|43|3436,411|43|3456,430|43|3475,449|43|3494,468|43|3513,487|43|3532,506|43|3551,525|43|3570,556|43|3601,574|43|3619,593|43|3638,612|43|3657,631|43|3676,650|43|3695,658|43|3703,666|43|3711,679|43|3724,691|43|3736,710|43|3755,727|43|3772,746|43|3791,765|43|3810,784|43|3829,803|43|3848,822|43|3867,841|43|3886,860|43|3905,877|43|3922,894|43|3939,911|43|3956,928|43|3973,947|43|3992,965|43|4010,984|43|4029,1010|43|4055,1029|43|4074,1055|43|4100,1074|43|4119,1100|43|4145,1120|43|4165,1145|43|4190,1163|43|4208,1188|43|4233,1206|43|4251,1231|43|4276,1249|43|4294,1274|43|4319,1292|43|4337,1316|43|4361,1339|43|4384,1365|43|4410,1385|43|4430,1407|43|4452,1426|43|4471,1448|43|4493,1467|43|4512,1489|43|4534,1508|43|4553,1530|43|4575,1549|43|4594,1571|43|4616,1590|43|4635,1616|43|4661,1634|43|4679,1660|43|4705,1678|43|4723,1704|43|4749,1722|43|4767,1748|43|4793,1766|43|4811,1789|43|4834,1806|43|4851,1833|43|4878,1852|43|4897,1865|43|4910,1878|43|4923,1891|43|4936,1904|43|4949,1917|43|4962,1930|43|4975,1938|43|4983,1946|43|4991,1951|43|4996,1956|43|5001,1978|43|5023,1991|43|5036,2011|43|5056,2024|43|5069,2047|43|5092,2064|43|5109,2081|43|5126,2099|43|5144,2107|43|5152,2125|43|5170,2130|43|5175,2148|43|5193,2158|43|5203,2176|43|5221,2187|43|5232,2207|43|5252,2216|43|5261,2238|43|5283,2255|43|5300,2277|43|5322,2294|43|5339,2316|43|5361,2333|43|5378,2355|43|5400,2379|43|5424,2396|43|5441,2423|43|5468,2442|43|5487,2469|43|5514,2488|43|5533,2515|43|5560,2534|43|5579,2568|43|5613,2601|43|5646,2626|43|5671,2638|43|5683,2663|43|5708,2675|43|5720,2700|43|5745,2713|43|5758,2736|43|5781,2753|43|5798,2776|43|5821,2793|43|5838,2816|43|5861,2833|43|5878,2856|43|5901,2873|43|5918,2896|43|5941,2908|43|5953,2931|43|5976,2946|43|5991,2969|43|6014,2980|43|6025,3003|43|6048,0|86|6065,23|86|6088,40|86|6105,63|86|6128,80|86|6145,103|86|6168,120|86|6185,143|86|6208,160|86|6225,183|86|6248,201|86|6266,236|86|6301,263|86|6328,288|86|6353,307|86|6372,332|86|6397,355|86|6420,374|86|6439,397|86|6462,416|86|6481,439|86|6504,458|86|6523" oid="-1" prerendered="false" readable="false" rowHeight="43" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="129" id="77" name="font hors" offsets="0|0|0|,11|0|11,16|0|16,28|0|28,49|0|49,68|0|68,97|0|97,121|0|121,127|0|127,137|0|137,147|0|147,160|0|160,178|0|178,183|0|183,194|0|194,199|0|199,210|0|210,229|0|229,241|0|241,260|0|260,279|0|279,299|0|299,318|0|318,337|0|337,356|0|356,375|0|375,394|0|394,399|0|399,404|0|404,422|0|422,440|0|440,458|0|458,477|0|477,512|0|512,538|0|538,560|0|560,585|0|585,609|0|609,631|0|631,650|0|650,676|0|676,699|0|699,704|0|704,720|0|720,743|0|743,761|0|761,788|0|788,810|0|810,837|0|837,859|0|859,886|0|886,911|0|911,934|0|934,957|0|957,980|0|980,1005|0|1005,1040|0|1040,1065|0|1065,1090|0|1090,1113|0|1113,1122|0|1122,1133|0|1133,1142|0|1142,1158|0|1158,1181|0|1181,1190|0|1190,1209|0|1209,1227|0|1227,1245|0|1245,1263|0|1263,1282|0|1282,1295|0|1295,1313|0|1313,1330|0|1330,1335|0|1335,1344|0|1344,1361|0|1361,1366|0|1366,1393|0|1393,1410|0|1410,1429|0|1429,1447|0|1447,1465|0|1465,1477|0|1477,1494|0|1494,1505|0|1505,1522|0|1522,1541|0|1541,1568|0|1568,1587|0|1587,1606|0|1606,1625|0|1625,1637|0|1637,1642|0|1642,1654|0|1654,1674|0|1674,1693|0|1693,1712|0|1712,1731|0|1731,1738|0|1738,1757|0|1757,1770|0|1770,1789|0|1789,1803|0|1803,1817|0|1817,1830|0|1830,1849|0|1849,1866|0|1866,1875|0|1875,1894|0|1894,1913|0|1913,1932|0|1932,1951|0|1951,1970|0|1970,1976|0|1976,1982|0|1982,1996|0|1996,2010|0|2010,2029|0|2029,2042|0|2042,2060|0|2060,2071|0|2071,2090|0|2090,2103|0|2103,2112|0|2112,2131|0|2131,2150|0|2150,2169|0|2169,2188|0|2188,2199|0|2199,2204|0|2204,2223|0|2223,2243|0|2243,2262|0|2262,2283|0|2283,2288|0|2288,2307|0|2307,2318|0|2318,2346|0|2346,2360|0|2360,2377|0|2377,2395|0|2395,2406|0|2406,2434|0|2434,2457|0|2457,2468|0|2468,2487|0|2487,2500|0|2500,2513|0|2513,2522|0|2522,2539|0|2539,2560|0|2560,2565|0|2565,2575|0|2575,2584|0|2584,2598|0|2598,2615|0|2615,2645|0|2645,2675|0|2675,2706|0|2706,2725|0|2725,2751|0|2751,2777|0|2777,2803|0|2803,2829|0|2829,2855|0|2855,2881|0|2881,2916|0|2916,2941|0|2941,2963|0|2963,2985|0|2985,3007|0|3007,3029|0|3029,3037|0|3037,0|43|3045,13|43|3058,25|43|3070,51|43|3096,73|43|3118,100|43|3145,127|43|3172,154|43|3199,181|43|3226,208|43|3253,225|43|3270,252|43|3297,275|43|3320,298|43|3343,321|43|3366,344|43|3389,369|43|3414,391|43|3436,411|43|3456,430|43|3475,449|43|3494,468|43|3513,487|43|3532,506|43|3551,525|43|3570,556|43|3601,574|43|3619,593|43|3638,612|43|3657,631|43|3676,650|43|3695,658|43|3703,666|43|3711,679|43|3724,691|43|3736,710|43|3755,727|43|3772,746|43|3791,765|43|3810,784|43|3829,803|43|3848,822|43|3867,841|43|3886,860|43|3905,877|43|3922,894|43|3939,911|43|3956,928|43|3973,947|43|3992,965|43|4010,984|43|4029,1010|43|4055,1029|43|4074,1055|43|4100,1074|43|4119,1100|43|4145,1120|43|4165,1145|43|4190,1163|43|4208,1188|43|4233,1206|43|4251,1231|43|4276,1249|43|4294,1274|43|4319,1292|43|4337,1316|43|4361,1339|43|4384,1365|43|4410,1385|43|4430,1407|43|4452,1426|43|4471,1448|43|4493,1467|43|4512,1489|43|4534,1508|43|4553,1530|43|4575,1549|43|4594,1571|43|4616,1590|43|4635,1616|43|4661,1634|43|4679,1660|43|4705,1678|43|4723,1704|43|4749,1722|43|4767,1748|43|4793,1766|43|4811,1789|43|4834,1806|43|4851,1833|43|4878,1852|43|4897,1865|43|4910,1878|43|4923,1891|43|4936,1904|43|4949,1917|43|4962,1930|43|4975,1938|43|4983,1946|43|4991,1951|43|4996,1956|43|5001,1978|43|5023,1991|43|5036,2011|43|5056,2024|43|5069,2047|43|5092,2064|43|5109,2081|43|5126,2099|43|5144,2107|43|5152,2125|43|5170,2130|43|5175,2148|43|5193,2158|43|5203,2176|43|5221,2187|43|5232,2207|43|5252,2216|43|5261,2238|43|5283,2255|43|5300,2277|43|5322,2294|43|5339,2316|43|5361,2333|43|5378,2355|43|5400,2379|43|5424,2396|43|5441,2423|43|5468,2442|43|5487,2469|43|5514,2488|43|5533,2515|43|5560,2534|43|5579,2568|43|5613,2601|43|5646,2626|43|5671,2638|43|5683,2663|43|5708,2675|43|5720,2700|43|5745,2713|43|5758,2736|43|5781,2753|43|5798,2776|43|5821,2793|43|5838,2816|43|5861,2833|43|5878,2856|43|5901,2873|43|5918,2896|43|5941,2908|43|5953,2931|43|5976,2946|43|5991,2969|43|6014,2980|43|6025,3003|43|6048,0|86|6065,23|86|6088,40|86|6105,63|86|6128,80|86|6145,103|86|6168,120|86|6185,143|86|6208,160|86|6225,183|86|6248,201|86|6266,236|86|6301,263|86|6328,288|86|6353,307|86|6372,332|86|6397,355|86|6420,374|86|6439,397|86|6462,416|86|6481,439|86|6504,458|86|6523" oid="-1" prerendered="false" readable="false" rowHeight="43" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="68" id="82" name="font Interlocuteur" offsets="0|0|0|,9|0|9,14|0|14,23|0|23,40|0|40,55|0|55,79|0|79,97|0|97,101|0|101,110|0|110,119|0|119,130|0|130,145|0|145,150|0|150,160|0|160,165|0|165,174|0|174,189|0|189,198|0|198,214|0|214,229|0|229,245|0|245,260|0|260,275|0|275,290|0|290,305|0|305,320|0|320,325|0|325,330|0|330,345|0|345,360|0|360,375|0|375,390|0|390,418|0|418,438|0|438,455|0|455,475|0|475,493|0|493,510|0|510,525|0|525,545|0|545,562|0|562,567|0|567,580|0|580,598|0|598,612|0|612,633|0|633,650|0|650,671|0|671,688|0|688,709|0|709,728|0|728,746|0|746,764|0|764,781|0|781,801|0|801,829|0|829,849|0|849,869|0|869,887|0|887,895|0|895,904|0|904,911|0|911,925|0|925,943|0|943,950|0|950,965|0|965,980|0|980,994|0|994,1008|0|1008,1023|0|1023,1033|0|1033,1048|0|1048,1062|0|1062,1067|0|1067,1075|0|1075,1089|0|1089,1094|0|1094,1116|0|1116,1130|0|1130,1145|0|1145,1160|0|1160,1174|0|1174,1184|0|1184,1198|0|1198,1207|0|1207,1221|0|1221,1236|0|1236,1257|0|1257,1272|0|1272,1287|0|1287,1302|0|1302,1312|0|1312,1316|0|1316,1326|0|1326,1342|0|1342,1357|0|1357,1372|0|1372,1387|0|1387,1392|0|1392,1407|0|1407,1418|0|1418,1433|0|1433,1445|0|1445,1457|0|1457,1468|0|1468,1483|0|1483,1496|0|1496,1503|0|1503,1518|0|1518,1533|0|1533,1548|0|1548,1563|0|1563,1578|0|1578,1584|0|1584,1589|0|1589,1600|0|1600,1611|0|1611,1626|0|1626,1636|0|1636,1651|0|1651,1660|0|1660,1675|0|1675,1686|0|1686,1693|0|1693,1708|0|1708,1723|0|1723,1738|0|1738,1753|0|1753,1762|0|1762,1767|0|1767,1782|0|1782,1798|0|1798,1813|0|1813,1830|0|1830,1834|0|1834,1849|0|1849,1859|0|1859,1881|0|1881,1892|0|1892,1905|0|1905,1920|0|1920,1930|0|1930,1952|0|1952,1970|0|1970,1980|0|1980,1995|0|1995,2005|0|2005,2015|0|2015,2022|0|2022,2035|0|2035,2052|0|2052,2057|0|2057,2065|0|2065,2072|0|2072,2083|0|2083,2096|0|2096,2119|0|2119,2142|0|2142,2166|0|2166,2181|0|2181,2201|0|2201,2221|0|2221,2241|0|2241,2261|0|2261,2281|0|2281,2301|0|2301,2329|0|2329,2349|0|2349,2366|0|2366,2383|0|2383,2400|0|2400,2417|0|2417,2423|0|2423,2429|0|2429,2440|0|2440,2450|0|2450,2470|0|2470,2487|0|2487,2508|0|2508,2529|0|2529,2550|0|2550,2571|0|2571,2592|0|2592,2606|0|2606,2627|0|2627,2644|0|2644,2661|0|2661,2678|0|2678,2695|0|2695,2715|0|2715,2732|0|2732,2748|0|2748,2763|0|2763,2778|0|2778,2793|0|2793,2808|0|2808,2823|0|2823,2838|0|2838,2862|0|2862,2876|0|2876,2891|0|2891,2906|0|2906,2921|0|2921,2936|0|2936,2942|0|2942,2948|0|2948,2958|0|2958,2968|0|2968,2983|0|2983,2997|0|2997,3012|0|3012,3027|0|3027,3042|0|3042,3057|0|3057,3072|0|3072,0|34|3087,16|34|3103,30|34|3117,44|34|3131,58|34|3145,72|34|3159,87|34|3174,102|34|3189,117|34|3204,137|34|3224,152|34|3239,172|34|3259,187|34|3274,208|34|3295,224|34|3311,244|34|3331,258|34|3345,278|34|3365,292|34|3379,312|34|3399,326|34|3413,346|34|3433,360|34|3447,378|34|3465,396|34|3483,416|34|3503,432|34|3519,449|34|3536,464|34|3551,481|34|3568,496|34|3583,513|34|3600,528|34|3615,545|34|3632,560|34|3647,577|34|3664,592|34|3679,612|34|3699,627|34|3714,647|34|3734,662|34|3749,682|34|3769,697|34|3784,717|34|3804,732|34|3819,749|34|3836,763|34|3850,784|34|3871,799|34|3886,810|34|3897,821|34|3908,831|34|3918,841|34|3928,851|34|3938,861|34|3948,867|34|3954,873|34|3960,878|34|3965,883|34|3970,900|34|3987,911|34|3998,927|34|4014,938|34|4025,956|34|4043,970|34|4057,984|34|4071,998|34|4085,1004|34|4091,1018|34|4105,1024|34|4111,1038|34|4125,1047|34|4134,1061|34|4148,1070|34|4157,1086|34|4173,1094|34|4181,1111|34|4198,1125|34|4212,1142|34|4229,1156|34|4243,1173|34|4260,1187|34|4274,1204|34|4291,1222|34|4309,1236|34|4323,1257|34|4344,1272|34|4359,1293|34|4380,1308|34|4395,1329|34|4416,1344|34|4431,1372|34|4459,1398|34|4485,1417|34|4504,1427|34|4514,1446|34|4533,1456|34|4543,1475|34|4562,1486|34|4573,1504|34|4591,1518|34|4605,1536|34|4623,1550|34|4637,1568|34|4655,1582|34|4669,1600|34|4687,1614|34|4701,1632|34|4719,1642|34|4729,1660|34|4747,1672|34|4759,1690|34|4777,1699|34|4786,1716|34|4803,1730|34|4817,1747|34|4834,1761|34|4848,1778|34|4865,1792|34|4879,1809|34|4896,1823|34|4910,1840|34|4927,1854|34|4941,1871|34|4958,1886|34|4973,1914|34|5001,1935|34|5022,1955|34|5042,1970|34|5057,1990|34|5077,2008|34|5095,2023|34|5110,2041|34|5128,2056|34|5143,2074|34|5161,2089|34|5176" oid="-1" prerendered="false" readable="false" rowHeight="34" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="64" id="119" name="font Interlocuteur eve" offsets="0|0|0|,18|0|18,24|0|24,36|0|36,50|0|50,62|0|62,76|0|76,88|0|88,94|0|94,100|0|100,106|0|106,118|0|118,132|0|132,139|0|139,153|0|153,159|0|159,171|0|171,183|0|183,195|0|195,208|0|208,221|0|221,234|0|234,247|0|247,260|0|260,273|0|273,285|0|285,298|0|298,304|0|304,312|0|312,327|0|327,343|0|343,358|0|358,370|0|370,382|0|382,400|0|400,416|0|416,431|0|431,446|0|446,461|0|461,476|0|476,492|0|492,508|0|508,520|0|520,536|0|536,553|0|553,569|0|569,587|0|587,604|0|604,620|0|620,635|0|635,651|0|651,668|0|668,682|0|682,696|0|696,712|0|712,730|0|730,748|0|748,764|0|764,780|0|780,793|0|793,800|0|800,812|0|812,818|0|818,830|0|830,848|0|848,854|0|854,869|0|869,886|0|886,900|0|900,917|0|917,932|0|932,946|0|946,962|0|962,978|0|978,992|0|992,1003|0|1003,1018|0|1018,1032|0|1032,1050|0|1050,1066|0|1066,1080|0|1080,1097|0|1097,1114|0|1114,1129|0|1129,1142|0|1142,1156|0|1156,1172|0|1172,1189|0|1189,1206|0|1206,1222|0|1222,1238|0|1238,1250|0|1250,1258|0|1258,1261|0|1261,1269|0|1269,1283|0|1283,1298|0|1298,1313|0|1313,1328|0|1328,1333|0|1333,1348|0|1348,1359|0|1359,1374|0|1374,1386|0|1386,1398|0|1398,1409|0|1409,1424|0|1424,1437|0|1437,1444|0|1444,1459|0|1459,1474|0|1474,1489|0|1489,1504|0|1504,1519|0|1519,1525|0|1525,1530|0|1530,1541|0|1541,1552|0|1552,1567|0|1567,1577|0|1577,1592|0|1592,1601|0|1601,1616|0|1616,1627|0|1627,1634|0|1634,1649|0|1649,1664|0|1664,1679|0|1679,1694|0|1694,1712|0|1712,1718|0|1718,1730|0|1730,1745|0|1745,1758|0|1758,1774|0|1774,1777|0|1777,1791|0|1791,1801|0|1801,1819|0|1819,1829|0|1829,1845|0|1845,1861|0|1861,1875|0|1875,1893|0|1893,1913|0|1913,1923|0|1923,1937|0|1937,1946|0|1946,1955|0|1955,1961|0|1961,1977|0|1977,1991|0|1991,1996|0|1996,2002|0|2002,2010|0|2010,2020|0|2020,2036|0|2036,2054|0|2054,2072|0|2072,2090|0|2090,2102|0|2102,2120|0|2120,2138|0|2138,2156|0|2156,2174|0|2174,2192|0|2192,2210|0|2210,2228|0|2228,2243|0|2243,2258|0|2258,2273|0|2273,2288|0|2288,2303|0|2303,2315|0|2315,2327|0|2327,2339|0|2339,2351|0|2351,2367|0|2367,2384|0|2384,2400|0|2400,2416|0|2416,2432|0|2432,2448|0|2448,2464|0|2464,2476|0|2476,2492|0|2492,2508|0|2508,2524|0|2524,2540|0|2540,2556|0|2556,2572|0|2572,2587|0|2587,2602|0|2602,2617|0|2617,2632|0|2632,2647|0|2647,2662|0|2662,2677|0|2677,2692|0|2692,2710|0|2710,2724|0|2724,2739|0|2739,2754|0|2754,2769|0|2769,2784|0|2784,2798|0|2798,2812|0|2812,2826|0|2826,2840|0|2840,2855|0|2855,2871|0|2871,2885|0|2885,2899|0|2899,2913|0|2913,2927|0|2927,2941|0|2941,2955|0|2955,2971|0|2971,2987|0|2987,3003|0|3003,3019|0|3019,3035|0|3035,3051|0|3051,3068|0|3068,3084|0|3084,0|32|3102,15|32|3117,33|32|3135,48|32|3150,66|32|3168,81|32|3183,96|32|3198,110|32|3212,125|32|3227,139|32|3241,154|32|3256,168|32|3270,183|32|3285,197|32|3299,212|32|3314,229|32|3331,245|32|3347,262|32|3364,277|32|3379,292|32|3394,307|32|3409,322|32|3424,337|32|3439,352|32|3454,367|32|3469,382|32|3484,397|32|3499,412|32|3514,428|32|3530,444|32|3546,460|32|3562,476|32|3578,492|32|3594,508|32|3610,524|32|3626,540|32|3642,556|32|3658,572|32|3674,588|32|3690,605|32|3707,617|32|3719,631|32|3733,643|32|3745,657|32|3759,669|32|3771,683|32|3785,695|32|3797,709|32|3811,721|32|3823,735|32|3837,753|32|3855,768|32|3870,784|32|3886,796|32|3898,813|32|3915,828|32|3930,842|32|3944,858|32|3960,872|32|3974,888|32|3990,902|32|4004,918|32|4020,932|32|4034,948|32|4050,962|32|4064,978|32|4080,992|32|4094,1009|32|4111,1025|32|4127,1042|32|4144,1058|32|4160,1075|32|4177,1091|32|4193,1108|32|4210,1124|32|4226,1138|32|4240,1154|32|4256,1168|32|4270,1184|32|4286,1198|32|4300,1214|32|4316,1228|32|4330,1246|32|4348,1264|32|4366,1281|32|4383,1296|32|4398,1313|32|4415,1328|32|4430,1345|32|4447,1360|32|4462,1374|32|4476,1387|32|4489,1401|32|4503,1414|32|4516,1428|32|4530,1441|32|4543,1455|32|4557,1468|32|4570,1482|32|4584,1496|32|4598,1510|32|4612,1524|32|4626,1538|32|4640,1553|32|4655,1569|32|4671,1585|32|4687,1601|32|4703,1617|32|4719,1633|32|4735,1649|32|4751,1665|32|4767,1681|32|4783,1697|32|4799,1713|32|4815,1729|32|4831,1746|32|4848,1764|32|4866,1781|32|4883,1797|32|4899,1813|32|4915,1829|32|4931,1842|32|4944,1854|32|4956,1867|32|4969,1879|32|4981,1892|32|4994,1904|32|5006" oid="-1" prerendered="false" readable="false" rowHeight="32" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="60" id="19" name="font red" offsets="0|0|0|,8|0|8,13|0|13,24|0|24,39|0|39,53|0|53,74|0|74,91|0|91,96|0|96,104|0|104,112|0|112,122|0|122,135|0|135,140|0|140,148|0|148,153|0|153,161|0|161,174|0|174,184|0|184,198|0|198,212|0|212,226|0|226,239|0|239,252|0|252,265|0|265,278|0|278,292|0|292,297|0|297,302|0|302,315|0|315,328|0|328,341|0|341,355|0|355,380|0|380,399|0|399,416|0|416,433|0|433,450|0|450,465|0|465,479|0|479,497|0|497,513|0|513,519|0|519,532|0|532,550|0|550,564|0|564,583|0|583,599|0|599,617|0|617,632|0|632,651|0|651,669|0|669,685|0|685,701|0|701,717|0|717,734|0|734,758|0|758,775|0|775,792|0|792,808|0|808,816|0|816,824|0|824,832|0|832,845|0|845,861|0|861,868|0|868,882|0|882,896|0|896,909|0|909,923|0|923,937|0|937,947|0|947,961|0|961,974|0|974,979|0|979,987|0|987,1001|0|1001,1006|0|1006,1026|0|1026,1039|0|1039,1053|0|1053,1067|0|1067,1081|0|1081,1091|0|1091,1105|0|1105,1114|0|1114,1127|0|1127,1142|0|1142,1162|0|1162,1176|0|1176,1190|0|1190,1203|0|1203,1213|0|1213,1217|0|1217,1227|0|1227,1242|0|1242,1244|0|1244,1246|0|1246,1248|0|1248,1254|0|1254,1268|0|1268,1278|0|1278,1299|0|1299,1310|0|1310,1321|0|1321,1331|0|1331,1352|0|1352,1365|0|1365,1372|0|1372,1397|0|1397,1399|0|1399,1401|0|1401,1403|0|1403,1405|0|1405,1411|0|1411,1417|0|1417,1429|0|1429,1441|0|1441,1443|0|1443,1453|0|1453,1477|0|1477,1487|0|1487,1511|0|1511,1521|0|1521,1529|0|1529,1545|0|1545,1547|0|1547,1549|0|1549,1568|0|1568,1576|0|1576,1581|0|1581,1594|0|1594,1608|0|1608,1622|0|1622,1637|0|1637,1641|0|1641,1655|0|1655,1664|0|1664,1684|0|1684,1694|0|1694,1706|0|1706,1719|0|1719,1727|0|1727,1747|0|1747,1763|0|1763,1772|0|1772,1786|0|1786,1795|0|1795,1804|0|1804,1811|0|1811,1824|0|1824,1839|0|1839,1844|0|1844,1852|0|1852,1858|0|1858,1868|0|1868,1881|0|1881,1901|0|1901,1921|0|1921,1942|0|1942,1956|0|1956,1975|0|1975,1994|0|1994,2013|0|2013,2032|0|2032,2051|0|2051,2070|0|2070,2095|0|2095,2112|0|2112,2127|0|2127,2142|0|2142,2157|0|2157,2172|0|2172,2180|0|2180,2188|0|2188,2198|0|2198,2207|0|2207,2225|0|2225,2241|0|2241,2259|0|2259,2277|0|2277,2295|0|2295,2313|0|2313,2331|0|2331,2344|0|2344,2363|0|2363,2379|0|2379,2395|0|2395,2411|0|2411,2427|0|2427,2444|0|2444,2459|0|2459,2473|0|2473,2487|0|2487,2501|0|2501,2515|0|2515,2529|0|2529,2543|0|2543,2557|0|2557,2578|0|2578,2591|0|2591,2605|0|2605,2619|0|2619,2633|0|2633,2647|0|2647,2655|0|2655,2663|0|2663,2673|0|2673,2682|0|2682,2696|0|2696,2709|0|2709,2723|0|2723,2737|0|2737,2751|0|2751,2765|0|2765,2779|0|2779,2793|0|2793,2807|0|2807,2820|0|2820,2833|0|2833,2846|0|2846,2859|0|2859,2873|0|2873,2887|0|2887,2901|0|2901,2920|0|2920,2934|0|2934,2953|0|2953,2967|0|2967,2986|0|2986,3000|0|3000,3017|0|3017,3030|0|3030,3047|0|3047,3060|0|3060,3077|0|3077,3090|0|3090,0|30|3107,13|30|3120,30|30|3137,48|30|3155,66|30|3173,81|30|3188,96|30|3203,110|30|3217,125|30|3232,139|30|3246,154|30|3261,168|30|3275,183|30|3290,197|30|3304,212|30|3319,226|30|3333,244|30|3351,258|30|3365,276|30|3383,290|30|3397,308|30|3415,322|30|3429,340|30|3447,354|30|3461,370|30|3477,383|30|3490,402|30|3509,417|30|3524,427|30|3534,437|30|3544,446|30|3553,455|30|3562,464|30|3571,473|30|3580,480|30|3587,486|30|3593,492|30|3599,497|30|3604,513|30|3620,524|30|3631,539|30|3646,550|30|3657,568|30|3675,582|30|3689,596|30|3703,610|30|3717,618|30|3725,632|30|3739,638|30|3745,652|30|3759,662|30|3769,676|30|3783,687|30|3794,702|30|3809,710|30|3817,726|30|3833,739|30|3846,755|30|3862,768|30|3875,784|30|3891,797|30|3904,815|30|3922,832|30|3939,845|30|3952,863|30|3970,877|30|3984,895|30|4002,909|30|4016,927|30|4034,941|30|4048,966|30|4073,988|30|4095,1006|30|4113,1016|30|4123,1034|30|4141,1044|30|4151,1062|30|4169,1072|30|4179,1088|30|4195,1102|30|4209,1118|30|4225,1132|30|4239,1148|30|4255,1162|30|4269,1178|30|4285,1192|30|4299,1208|30|4315,1218|30|4325,1234|30|4341,1247|30|4354,1263|30|4370,1272|30|4379,1288|30|4395,1301|30|4408,1317|30|4424,1330|30|4437,1346|30|4453,1359|30|4466,1375|30|4482,1388|30|4495,1404|30|4511,1417|30|4524,1433|30|4540,1447|30|4554,1471|30|4578,1491|30|4598,1508|30|4615,1522|30|4629,1539|30|4646,1555|30|4662,1568|30|4675,1584|30|4691,1597|30|4704,1613|30|4720,1626|30|4733" oid="-1" prerendered="false" readable="false" rowHeight="30" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="120" id="118" name="fonteve" offsets="0|0|0|,23|0|23,29|0|29,43|0|43,60|0|60,75|0|75,92|0|92,107|0|107,114|0|114,122|0|122,130|0|130,145|0|145,164|0|164,173|0|173,190|0|190,197|0|197,212|0|212,227|0|227,242|0|242,258|0|258,274|0|274,290|0|290,306|0|306,322|0|322,338|0|338,353|0|353,369|0|369,376|0|376,386|0|386,405|0|405,425|0|425,444|0|444,459|0|459,475|0|475,498|0|498,518|0|518,537|0|537,557|0|557,576|0|576,595|0|595,615|0|615,635|0|635,650|0|650,670|0|670,691|0|691,710|0|710,733|0|733,755|0|755,775|0|775,793|0|793,813|0|813,835|0|835,852|0|852,871|0|871,892|0|892,915|0|915,937|0|937,958|0|958,978|0|978,994|0|994,1002|0|1002,1017|0|1017,1025|0|1025,1040|0|1040,1063|0|1063,1071|0|1071,1090|0|1090,1111|0|1111,1129|0|1129,1149|0|1149,1167|0|1167,1185|0|1185,1205|0|1205,1225|0|1225,1242|0|1242,1255|0|1255,1274|0|1274,1291|0|1291,1314|0|1314,1334|0|1334,1353|0|1353,1374|0|1374,1394|0|1394,1412|0|1412,1428|0|1428,1446|0|1446,1466|0|1466,1487|0|1487,1508|0|1508,1528|0|1528,1548|0|1548,1563|0|1563,1572|0|1572,1575|0|1575,1584|0|1584,1601|0|1601,1620|0|1620,1639|0|1639,1658|0|1658,1665|0|1665,1684|0|1684,1697|0|1697,1716|0|1716,1730|0|1730,1744|0|1744,1757|0|1757,1776|0|1776,1793|0|1793,1802|0|1802,1821|0|1821,1840|0|1840,1859|0|1859,1878|0|1878,1897|0|1897,1903|0|1903,1909|0|1909,1923|0|1923,1937|0|1937,1956|0|1956,1969|0|1969,1987|0|1987,1998|0|1998,2017|0|2017,2030|0|2030,2039|0|2039,2058|0|2058,2077|0|2077,2096|0|2096,2115|0|2115,2138|0|2138,2144|0|2144,2158|0|2158,2176|0|2176,2192|0|2192,2212|0|2212,2215|0|2215,2234|0|2234,2246|0|2246,2269|0|2269,2282|0|2282,2302|0|2302,2323|0|2323,2340|0|2340,2363|0|2363,2388|0|2388,2400|0|2400,2419|0|2419,2429|0|2429,2440|0|2440,2448|0|2448,2468|0|2468,2485|0|2485,2490|0|2490,2498|0|2498,2508|0|2508,2521|0|2521,2540|0|2540,2563|0|2563,2586|0|2586,2609|0|2609,2623|0|2623,2646|0|2646,2669|0|2669,2692|0|2692,2715|0|2715,2738|0|2738,2761|0|2761,2784|0|2784,2803|0|2803,2822|0|2822,2841|0|2841,2860|0|2860,2879|0|2879,2894|0|2894,2909|0|2909,2924|0|2924,2939|0|2939,2959|0|2959,2981|0|2981,3001|0|3001,3021|0|3021,3041|0|3041,0|40|3061,20|40|3081,34|40|3095,55|40|3116,76|40|3137,97|40|3158,118|40|3179,139|40|3200,159|40|3220,177|40|3238,196|40|3257,215|40|3276,234|40|3295,253|40|3314,272|40|3333,291|40|3352,310|40|3371,332|40|3393,350|40|3411,368|40|3429,386|40|3447,404|40|3465,422|40|3483,439|40|3500,456|40|3517,473|40|3534,490|40|3551,508|40|3569,528|40|3589,547|40|3608,566|40|3627,585|40|3646,604|40|3665,623|40|3684,642|40|3703,661|40|3722,681|40|3742,701|40|3762,721|40|3782,741|40|3802,761|40|3822,782|40|3843,802|40|3863,825|40|3886,844|40|3905,867|40|3928,886|40|3947,910|40|3971,931|40|3992,950|40|4011,968|40|4029,987|40|4048,1005|40|4066,1024|40|4085,1042|40|4103,1061|40|4122,1079|40|4140,1099|40|4160,1120|40|4181,1140|40|4201,1160|40|4221,1179|40|4240,1197|40|4258,1216|40|4277,1234|40|4295,1253|40|4314,1271|40|4332,1291|40|4352,1309|40|4370,1328|40|4389,1346|40|4407,1366|40|4427,1386|40|4447,1406|40|4467,1426|40|4487,1446|40|4507,1466|40|4527,1486|40|4547,1506|40|4567,1526|40|4587,1546|40|4607,1566|40|4627,1586|40|4647,1601|40|4662,1618|40|4679,1633|40|4694,1650|40|4711,1665|40|4726,1682|40|4743,1697|40|4758,1714|40|4775,1729|40|4790,1746|40|4807,1769|40|4830,1788|40|4849,1808|40|4869,1822|40|4883,1843|40|4904,1862|40|4923,1880|40|4941,1899|40|4960,1916|40|4977,1935|40|4996,1952|40|5013,1971|40|5032,1988|40|5049,2007|40|5068,2024|40|5085,2044|40|5105,2061|40|5122,2083|40|5144,2103|40|5164,2125|40|5186,2145|40|5206,2167|40|5228,2187|40|5248,2209|40|5270,2228|40|5289,2246|40|5307,2266|40|5327,2285|40|5346,2305|40|5366,2324|40|5385,2344|40|5405,2363|40|5424,2386|40|5447,2408|40|5469,2430|40|5491,2448|40|5509,2470|40|5531,2488|40|5549,2510|40|5571,2528|40|5589,2545|40|5606,2561|40|5622,2578|40|5639,2594|40|5655,2611|40|5672,2627|40|5688,2644|40|5705,2660|40|5721,2679|40|5740,2697|40|5758,2716|40|5777,2734|40|5795,2753|40|5814,2771|40|5832,2792|40|5853,2812|40|5873,2833|40|5894,2853|40|5914,2874|40|5935,2894|40|5955,2915|40|5976,2935|40|5996,2956|40|6017,2976|40|6037,2997|40|6058,0|80|6079,22|80|6101,43|80|6122,63|80|6142,83|80|6162,103|80|6182,119|80|6198,134|80|6213,150|80|6229,165|80|6244,181|80|6260,196|80|6275" oid="-1" prerendered="false" readable="false" rowHeight="40" shared="false"/>
+    <custom-block blocktag="custom-36" blocktype="ACTION" code=".say(&quot;ActorEvents_42&quot;, &quot;_customBlock_FullRestore&quot;);" desc="" global="false" gui="Restore %0 To Full Health" id="36" message="FullRestore" name="FullRestore" oid="-1" return="void" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-99" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_gestion_emotion_anna_adulte(, , , , , );" desc="" global="true" gui="gestion_emotion_anna_adulte feel : %0, tete : %1, bouche : %2, torse : %4, joue : %5" id="99" message="gestion_emotion_anna_adulte" name="gestion_emotion_anna_adulte" oid="-1" return="void" shared="false" snippetID="22">
+        <blank name="feel" order="0" type="text"/>
+        <blank name="tete" order="1" type="actor"/>
+        <blank name="bouche" order="2" type="actor"/>
+        <blank name="bras" order="3" type="actor"/>
+        <blank name="torse" order="4" type="actor"/>
+        <blank name="joue" order="5" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-96" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_gestion_emotion_anna_enfant(, , , , , );" desc="" global="true" gui="gestion_emotion_anna_enfant, feel : %0, tete : %1, bouche : %2, bras : %3, torse : %4, joue : %5" id="96" message="gestion_emotion_anna_enfant" name="gestion_emotion_anna_enfant" oid="-1" return="void" shared="false" snippetID="22">
+        <blank name="PersoFeel" order="0" type="text"/>
+        <blank name="tete" order="1" type="actor"/>
+        <blank name="bouche" order="2" type="actor"/>
+        <blank name="bras" order="3" type="actor"/>
+        <blank name="torse" order="4" type="actor"/>
+        <blank name="joue" order="5" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-41" blocktype="NORMAL" code="(.say(&quot;ActorEvents_42&quot;, &quot;_customBlock_GetCurrentHealth&quot;) : Float)" desc="" global="false" gui="Current Health for %0" id="41" message="GetCurrentHealth" name="GetCurrentHealth" oid="-1" return="number" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-39" blocktype="NORMAL" code="(.say(&quot;ActorEvents_42&quot;, &quot;_customBlock_GetInvincibility&quot;) : Bool)" desc="" global="false" gui="%0 Is Invincible?" id="39" message="GetInvincibility" name="GetInvincibility" oid="-1" return="boolean" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-40" blocktype="NORMAL" code="(.say(&quot;ActorEvents_42&quot;, &quot;_customBlock_GetMaxHealth&quot;) : Float)" desc="" global="false" gui="Maximum Health For %0" id="40" message="GetMaxHealth" name="GetMaxHealth" oid="-1" return="number" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="133" name="grotte" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="134" name="grotte_1" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="135" name="grotte_3" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="144" name="grotte_3_2" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="136" name="grotte_4" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="137" name="grotte_5" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="138" name="grotte_6" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="139" name="grotte_7" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="143" name="hadshoot" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <custom-block blocktag="custom-37" blocktype="ACTION" code=".say(&quot;ActorEvents_42&quot;, &quot;_customBlock_Heal&quot;, []);" desc="Adds a specific amount of health to the Actor." global="false" gui="Heal %0 By %1" id="37" message="Heal" name="Heal" oid="-1" return="void" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="68" fixedrot="true" fric="0.2" gid="3" id="165" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="id_brune" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="166" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <music atlasID="0" desc="" id="186" loop="true" name="incorect" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="225" loop="true" name="intero" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.2" gid="3" id="22" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="johnson" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="23" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="23" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="surpris" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="colere" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="48" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="50" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="surpris" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="surpris_plus" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="52" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="content_plus" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="content" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="surpris" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="pas_content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris_plus" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="54" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="revele" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="cache" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="content" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="56" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="miette" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="cache" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="65" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="detendu" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="salut" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="shot" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="shot" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="71" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="grrr" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ok" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="pas_content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pas_content" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="4" loop="true" name="content_plus" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="73" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="shocked" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="shocked" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="serious" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="sad" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="sad" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="4" loop="true" name="seriouss" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="serious" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="76" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="rouge" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="miette" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="111" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="surpris" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="colere" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="147" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="trop_content" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="colere" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="mort" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="mort" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="171" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="colere" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="176" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="doute" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="doute" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="colere" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="gentil" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="gentil" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="4" loop="true" name="shot" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="shot" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="214" name="johnson" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="triste" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
+            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="triste" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="42" fixedrot="true" fric="0.2" gid="3" id="83" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="karma_bar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="84" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="84" name="karma_bar" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="500" originy="25" sync="false" version="2" width="1000">
+            <poly data="4,0,50,1000,50,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="43" fixedrot="true" fric="0.2" gid="3" id="85" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="karma_fleche" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="86" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="86" name="karma_fleche" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="500" originy="25" sync="false" version="2" width="1000">
+            <poly data="4,0,50,1000,50,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="53" fixedrot="true" fric="0.2" gid="3" id="120" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="map_mirador" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="121" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="121" name="map_mirador" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="519" id="0" loop="true" name="Animation 0" numframes="1" originx="411" originy="259" sync="false" version="2" width="822">
+            <poly data="4,0,519,822,519,822,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="168" name="map_mirador" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="562" id="0" loop="true" name="Animation 0" numframes="1" originx="500" originy="281" sync="false" version="2" width="1000">
+            <poly data="4,0,562,1000,562,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="66" fixedrot="true" fric="0.2" gid="3" id="161" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="map_pentagramme" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="162" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="162" name="map_pentagramme" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="519" id="0" loop="true" name="vide" numframes="1" originx="411" originy="259" sync="false" version="2" width="822">
+            <poly data="4,0,519,822,519,822,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="vide" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="519" id="1" loop="true" name="penta" numframes="1" originx="411" originy="259" sync="false" version="2" width="822">
+            <poly data="4,0,519,822,519,822,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="penta" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="191" name="mort" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="188" loop="true" name="musique_brieffing_plusool" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="152" loop="true" name="musique_calme_tuto" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="216" loop="true" name="musique_spot_card" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="81" name="near office" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="78" name="office" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="122" name="office_tab" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="123" name="office_tab_clean" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="157" loop="true" name="ouvrir_journal" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="25" fixedrot="true" fric="0.2" gid="3" id="51" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="perso_bouche" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="52" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="26" fixedrot="true" fric="0.2" gid="3" id="53" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="perso_bras" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="54" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="27" fixedrot="true" fric="0.2" gid="3" id="55" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="perso_miette" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="24" fixedrot="true" fric="0.2" gid="3" id="49" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="perso_tete" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="50" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="3" id="47" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="perso_tron" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="48" static="false">
+        <snippets/>
+    </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="141" name="phase_shout" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="180" name="Poison" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="82" fixedrot="true" fric="0.2" gid="3" id="178" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="poison_vert" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="179" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <custom-block blocktag="custom-108" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_pos_actor_to(, , );" desc="" global="true" gui="set pos actor : %0 , to x: %1, y: %2" id="108" message="pos_actor_to" name="pos_actor_to" oid="-1" return="void" shared="false" snippetID="22">
+        <blank name="actor" order="0" type="actor"/>
+        <blank name="x" order="1" type="number"/>
+        <blank name="y" order="2" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="15" fixedrot="true" fric="0.2" gid="3" id="27" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="preuve 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="16" fixedrot="true" fric="0.2" gid="3" id="29" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="preuve 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="28" fixedrot="true" fric="0.2" gid="4" id="57" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="preuve_s1_01" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="29" fixedrot="true" fric="0.2" gid="3" id="59" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="preuve_s1_02" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="30" fixedrot="true" fric="0.2" gid="3" id="61" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="preuve_s1_03" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="62" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <music atlasID="0" desc="" id="224" loop="true" name="qcm" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <custom-block blocktag="custom-102" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_reinitialisation_pour_nouvelle_scene();" desc="" global="true" gui="reinitialisation_pour_nouvelle_scene" id="102" message="reinitialisation_pour_nouvelle_scene" name="reinitialisation_pour_nouvelle_scene" oid="-1" return="void" shared="false" snippetID="22"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="3" id="20" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="rond" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="21" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="21" name="rond" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="100" id="0" loop="true" name="Animation 0" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="49" fixedrot="true" fric="0.2" gid="3" id="112" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="s2_ preuve 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="113" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="50" fixedrot="true" fric="0.2" gid="3" id="114" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="s2_ preuve 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="115" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="51" fixedrot="true" fric="0.2" gid="3" id="116" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="s2_ preuve 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="117" static="false">
+        <snippets>
+            <s enabled="false" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3.0"/>
+                <prop id="2" list="0" val="3.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val="Damaged"/>
+                <prop id="7" list="0" val="-1"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="true"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="45" fixedrot="true" fric="0.2" gid="3" id="89" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="schema" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="90" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="90" name="schema" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="724" id="0" loop="true" name="1" numframes="1" originx="396" originy="362" sync="false" version="2" width="793">
+            <poly data="4,0,724,793,724,793,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="724" id="1" loop="true" name="2" numframes="1" originx="396" originy="362" sync="false" version="2" width="793">
+            <poly data="4,0,724,793,724,793,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="724" id="2" loop="true" name="3" numframes="1" originx="396" originy="362" sync="false" version="2" width="793">
+            <poly data="4,0,724,793,724,793,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="724" id="3" loop="true" name="4" numframes="1" originx="396" originy="362" sync="false" version="2" width="793">
+            <poly data="4,0,724,793,724,793,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-107" blocktype="ACTION" code="scripts.SceneEvents_3._customBlock_set_pos_actor_to_actor(, );" desc="" global="true" gui="set pos actor : %0 to actor : %1" id="107" message="set_pos_actor_to_actor" name="set_pos_actor_to_actor" oid="-1" return="void" shared="false" snippetID="22">
+        <blank name="actor1" order="0" type="actor"/>
+        <blank name="actor2" order="1" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-35" blocktype="ACTION" code=".say(&quot;ActorEvents_42&quot;, &quot;_customBlock_SetHealth&quot;, []);" desc="" global="false" gui="Set Health For %0 To %1" id="35" message="SetHealth" name="SetHealth" oid="-1" return="void" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-34" blocktype="ACTION" code=".say(&quot;ActorEvents_42&quot;, &quot;_customBlock_SetInvincibility&quot;, []);" desc="" global="false" gui="Set Invincibility For %0 to %1" id="34" message="SetInvincibility" name="SetInvincibility" oid="-1" return="void" shared="false" snippetID="18">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Status" order="1" type="boolean"/>
+    </custom-block>
+    <music atlasID="0" desc="" id="187" loop="true" name="shit_got_real" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="185" loop="true" name="shot_gun" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="142" name="shout" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="177" name="showndown" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="210" loop="true" name="son_menu" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="89" fixedrot="true" fric="0.2" gid="3" id="203" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="son_moins" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="204" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="204" name="son_moins" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="44" originy="25" sync="false" version="2" width="89">
+            <poly data="4,0,50,89,50,89,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="206" name="son_moins" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="84" id="0" loop="true" name="Animation 0" numframes="1" originx="40" originy="42" sync="false" version="2" width="80">
+            <poly data="4,0,84,80,84,80,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="183" loop="true" name="son_passage dialog" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="90" fixedrot="true" fric="0.2" gid="3" id="205" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="son_plus" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="206" static="false">
+        <snippets/>
+    </actor>
+    <music atlasID="0" desc="" id="184" loop="true" name="son_preuve" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="3" id="32" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="table" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="33" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="33" name="table" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="1080" id="0" loop="true" name="Animation 0" numframes="1" originx="960" originy="540" sync="false" version="2" width="1920">
+            <poly data="4,0,1080,1920,1080,1920,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="158" loop="true" name="tourner_page" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="60" fixedrot="true" fric="0.2" gid="3" id="146" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="tueur1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="147" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="44" fixedrot="true" fric="0.2" gid="3" id="87" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="vie" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="88" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="88" name="vie" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="300" id="0" loop="true" name="10" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="10" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="1" loop="true" name="9" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="9" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="2" loop="true" name="8" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="8" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="3" loop="true" name="7" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="7" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="4" loop="true" name="6" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="6" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="5" loop="true" name="5" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="5" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="6" loop="true" name="4" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="7" loop="true" name="3" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="8" loop="true" name="2" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="9" loop="true" name="1" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="300" id="10" loop="true" name="0" numframes="1" originx="100" originy="150" sync="false" version="2" width="200">
+            <poly data="4,0,300,200,300,200,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="18" fixedrot="true" fric="0.2" gid="3" id="42" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="wait_proof" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="43" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="43" name="wait_proof" readable="false" shared="false">
+        <anim across="3" down="3" durations="150,150,150,150,150,150,150,150" height="300" id="0" loop="true" name="Animation 0" numframes="8" originx="50" originy="50" sync="false" version="2" width="300">
+            <poly data="4,0,100,100,100,100,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="217" loop="true" name="warofthepiano" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <custom-block blocktag="custom-105" blocktype="NORMAL" code="(scripts.SceneEvents_3._customBlock_X_to_the_right_of() : Float)" desc="" global="true" gui="X_to_the_right_of actor : %0" id="105" message="X_to_the_right_of" name="X_to_the_right_of" oid="-1" return="number" shared="false" snippetID="22">
+        <blank name="actor" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-106" blocktype="NORMAL" code="(scripts.SceneEvents_3._customBlock_Y_to_the_right_of(, ) : Float)" desc="" global="true" gui="Y_to_the_right_of actor : %0, with margin_top : %1" id="106" message="Y_to_the_right_of" name="Y_to_the_right_of" oid="-1" return="number" shared="false" snippetID="22">
+        <blank name="actor" order="0" type="actor"/>
+        <blank name="margin" order="1" type="number"/>
+    </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1080" id="140" name="zomm_chifffre_bas" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+</pack>

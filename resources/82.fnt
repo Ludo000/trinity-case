@@ -1,0 +1,17 @@
+#
+#Tue Jul 28 02:21:00 CEST 2015
+style=plain
+alphabet=
+stroke.color=\#2b2b2b
+color=\#d2f6ff
+shadow.y=0
+family=SansSerif
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=7
+shadow.blur=0
+chars=all
+gradient.color=\#ccffff
+stroke.size=0
+antialias=true
+size=28
