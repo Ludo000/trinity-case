@@ -15,8 +15,8 @@
         <background blendMode="normal" customScrollFactor="false" id="17" locked="true" name="grotte_1" opacity="100" order="13" rid="134" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <background blendMode="normal" customScrollFactor="false" id="16" locked="true" name="grotte" opacity="100" order="12" rid="133" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <background blendMode="normal" customScrollFactor="false" id="23" locked="true" name="zomm_chifffre_bas" opacity="100" order="11" rid="140" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
-        <layer blendMode="normal" color="0,255,0" id="10" locked="false" name="perso_tete" opacity="100" order="10" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
-        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_tron" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_tron" opacity="100" order="10" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="0,255,0" id="10" locked="false" name="perso_tete" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <layer blendMode="normal" color="255,175,175" id="11" locked="false" name="perso_bouche" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <layer blendMode="normal" color="255,0,0" id="12" locked="false" name="perso_joue" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <background blendMode="normal" customScrollFactor="false" id="29" locked="true" name="cadavres" opacity="100" order="6" rid="145" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>

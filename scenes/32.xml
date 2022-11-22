@@ -3,8 +3,8 @@
     <layers>
         <color-bg blue="0" green="0" red="0"/>
         <background blendMode="normal" customScrollFactor="false" id="18" locked="true" name="grotte" opacity="100" order="9" rid="133" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="10" locked="false" name="perso_tete" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_tron" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_tron" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="10" locked="false" name="perso_tete" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,175,175" id="11" locked="false" name="perso_bouche" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,0,0" id="12" locked="false" name="perso_joue" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="table" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>

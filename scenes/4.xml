@@ -3,8 +3,8 @@
     <layers>
         <color-bg blue="0" green="0" red="0"/>
         <background blendMode="normal" customScrollFactor="false" id="12" locked="true" name="devant_poste_police" opacity="100" order="11" rid="74" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="8" locked="false" name="perso_tete" opacity="100" order="10" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_corps" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="5" locked="false" name="perso_corps" opacity="100" order="10" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="8" locked="false" name="perso_tete" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,175,175" id="9" locked="false" name="perso_bouche" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="100,168,234" id="11" locked="false" name="perso_joue" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="table" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>

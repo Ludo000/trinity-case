@@ -719,13 +719,13 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="23" name="johnson" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="1024" id="0" loop="true" name="normal" numframes="1" originx="512" originy="512" sync="false" version="2" width="1024">
-            <poly data="4,0,0,1024,0,1024,1024,0,1024" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+            <poly data="4,0,1024,1024,1024,1024,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1024" id="1" loop="true" name="surpris" numframes="1" originx="512" originy="512" sync="false" version="2" width="1024">
-            <poly data="4,0,0,1024,0,1024,1024,0,1024" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris" rest="0.0" sensor="false"/>
+            <poly data="4,0,1024,1024,1024,1024,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="surpris" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1024" id="2" loop="true" name="colere" numframes="1" originx="512" originy="512" sync="false" version="2" width="1024">
-            <poly data="4,0,0,1024,0,1024,1024,0,1024" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
+            <poly data="4,0,1024,1024,1024,1024,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="colere" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="48" name="johnson" readable="false" shared="false">
@@ -776,27 +776,27 @@
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="65" name="johnson" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="detendu" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="detendu" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="salut" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="salut" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1000" id="2" loop="true" name="shot" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="shot" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="shot" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="71" name="johnson" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="1000" id="0" loop="true" name="grrr" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="grrr" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1000" id="1" loop="true" name="normal" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ok" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1000" id="3" loop="true" name="pas_content" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="pas_content" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="pas_content" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="1000" id="4" loop="true" name="content_plus" numframes="1" originx="500" originy="500" sync="false" version="2" width="1000">
-            <poly data="4,0,1000,1000,1000,1000,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,1000,0,1000,1000,0,1000" density="0.1" fric="0.2" gid="-1000" id="0" name="content_plus" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="73" name="johnson" readable="false" shared="false">
